@@ -1,14 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
 import MyBio from './components/mybio'
+// import { j1 } from './utils2'
+import { j1 } from './utils'
 
-function App() {
-  return (
-    <div className="App">
+export default class App extends Component {
+ 
+  render() {
+    return (
+      <div>
+           <div className="App">
      <MyBio/>
     </div>
-  );
+      </div>
+    )
+  }
 }
 
-export default App;

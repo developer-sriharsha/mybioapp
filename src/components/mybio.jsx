@@ -3,843 +3,1850 @@ import React, { Component } from 'react'
 export default class MyBio extends Component {
     render() {
         return (
-            <div>
-                 <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-          <div className="container">
-            <a className="navbar-brand" href="index.html"><span>K</span>Sriharsha</a>
-            <button className="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="oi oi-menu" /> Menu
-            </button>
-            <div className="collapse navbar-collapse" id="ftco-nav">
-              <ul className="navbar-nav nav ml-auto">
-                <li className="nav-item"><a href="#home-section" className="nav-link"><span>Home</span></a></li>
-                <li className="nav-item"><a href="#about-section" className="nav-link"><span>About</span></a></li>
-                <li className="nav-item"><a href="#resume-section" className="nav-link"><span>Resume</span></a></li>
-                <li className="nav-item"><a href="#services-section" className="nav-link"><span>Services</span></a></li>
-                <li className="nav-item"><a href="#projects-section" className="nav-link"><span>Projects</span></a></li>
-                <li className="nav-item"><a href="#blog-section" className="nav-link"><span>My Blog</span></a></li>
-                <li className="nav-item"><a href="#contact-section" className="nav-link"><span>Contact</span></a></li>
-              </ul>
-            </div>
+        <div>
+            <div id="page-loader">
+          <div className="animated bounceInDown">
+            <div className="spinner" />
           </div>
-        </nav>
-        <section className="hero-wrap js-fullheight">
-          <div className="overlay" />
-          <div className="container">
-            <div className="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
-              <div className="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
-                <div className="text text-center">
-                  <span className="subheading">Hey! I am</span>
-                  <h1>Ronaldo Fredrickson</h1>
-                  <h2>I'm a 
-                    <span className="txt-rotate" data-period={2000} data-rotate="[ &quot;Web Designer.&quot;, &quot;Developer.&quot;, &quot;Photographer.&quot;, &quot;Marketer.&quot;, &quot;Blogger&quot; ]" />
-                  </h2>
-                </div>
-              </div>
-            </div>
+          <div className="text-div text-center animated zoomIn">
+            <p className="text-uppercase">INTRODUCING</p>
+            {/* Name Only */}
+            <h6 className="text-uppercase">JOHN ROBERT SMITH</h6>
           </div>
-          <div className="mouse">
-            <a href="#" className="mouse-icon">
-              <div className="mouse-wheel"><span className="ion-ios-arrow-round-down" /></div>
-            </a>
-          </div>
-        </section>
-        <section className="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
-          <div className="container">
-            <div className="row d-flex no-gutters">
-              <div className="col-md-6 col-lg-6 d-flex">
-                <div className="img-about img d-flex align-items-stretch">
-                  <div className="overlay" />
-                  <div className="img d-flex align-self-stretch align-items-center" style={{backgroundImage: 'url(images/about.jpg)'}}>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 col-lg-6 pl-md-5 py-5">
-                <div className="row justify-content-start pb-3">
-                  <div className="col-md-12 heading-section ftco-animate">
-                    <h1 className="big">About</h1>
-                    <h2 className="mb-4">About Me</h2>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    <ul className="about-info mt-4 px-md-0 px-2">
-                      <li className="d-flex"><span>Name:</span> <span>Ronaldo Fredrickson</span></li>
-                      <li className="d-flex"><span>Date of birth:</span> <span>November 28, 1989</span></li>
-                      <li className="d-flex"><span>Address:</span> <span>San Francisco CA 97987 USA</span></li>
-                      <li className="d-flex"><span>Zip code:</span> <span>1000</span></li>
-                      <li className="d-flex"><span>Email:</span> <span>ronaldo@gmail.com</span></li>
-                      <li className="d-flex"><span>Phone: </span> <span>+1-2234-5678-9-0</span></li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="counter-wrap ftco-animate d-flex mt-md-3">
-                  <div className="text">
-                    <p className="mb-4">
-                      <span className="number" data-number={120}>0</span>
-                      <span>Project complete</span>
-                    </p>
-                    <p><a href="#" className="btn btn-primary py-3 px-3">Download CV</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="ftco-section ftco-partner">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm ftco-animate">
-                <a href="#" className="partner"><img src="images/partner-1.png" className="img-fluid" alt="Colorlib Template" /></a>
-              </div>
-              <div className="col-sm ftco-animate">
-                <a href="#" className="partner"><img src="images/partner-2.png" className="img-fluid" alt="Colorlib Template" /></a>
-              </div>
-              <div className="col-sm ftco-animate">
-                <a href="#" className="partner"><img src="images/partner-3.png" className="img-fluid" alt="Colorlib Template" /></a>
-              </div>
-              <div className="col-sm ftco-animate">
-                <a href="#" className="partner"><img src="images/partner-4.png" className="img-fluid" alt="Colorlib Template" /></a>
-              </div>
-              <div className="col-sm ftco-animate">
-                <a href="#" className="partner"><img src="images/partner-5.png" className="img-fluid" alt="Colorlib Template" /></a>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="ftco-section ftco-no-pb goto-here" id="resume-section">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-3">
-                <nav id="navi">
-                  <ul>
-                    <li><a href="#page-1">Education</a></li>
-                    <li><a href="#page-2">Experience</a></li>
-                    <li><a href="#page-3">Skills</a></li>
-                    <li><a href="#page-4">Awards</a></li>
-                  </ul>
-                </nav>
-              </div>
-              <div className="col-md-9">
-                <div id="page-1" className="page one">
-                  <h2 className="heading">Education</h2>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
+        </div>
+        {/*==========================================
+                 HEADER
+===========================================*/}
+        <div id="header" className="shadow">
+          {/* Navigation */}
+          <nav>
+            <div className="nav nav-wrapper navbar-fixed-top">
+              <div className="container-fluid">
+                {/* Menu Option */}
+                <ul className="nav-justified hide-on-med-and-down">
+                  <li><a href="#header">About</a></li>
+                  <li><a href="#experience">Experience</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#education">Education</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#portfolios">Portfolios</a></li>
+                  <li><a href="#achievement">Achievement</a></li>
+                  <li><a href="#publications">Publications</a></li>
+                  <li><a href="#blog">Blog</a></li>
+                  <li><a href="#clients">Clients</a></li>
+                  <li><a href="#pricing">Pricing</a></li>
+                  <li><a href="#interest">Interest</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#0" data-activates="nav-mobile" id="nav-btn" className="button-collapse nav-icon">
+                  <i className="ion-navicon" /></a>
+                {/* Side Nav */}
+                <div id="side-nav">
+                  <div id="nav-header">
+                    <div id="nav-profile" className="center-block">
+                      {/* Profile Picture [Square] */}
+                      <img src="images/profile-pic.png" />
                     </div>
-                    <div className="text pl-3">
-                      <span className="date">2014-2015</span>
-                      <h2>Bachelor of Science in Computer Science</h2>
-                      <span className="position">Cambridge University</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
+                    <h6 className="text-center text-capitalize">John Robert Smith</h6>
                   </div>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
-                    </div>
-                    <div className="text pl-3">
-                      <span className="date">2014-2015</span>
-                      <h2>Computer Processing Systems/Computer Software</h2>
-                      <span className="position">Cambridge University</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                  </div>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
-                    </div>
-                    <div className="text pl-3">
-                      <span className="date">2014-2015</span>
-                      <h2>Diploma in Computer</h2>
-                      <span className="position">Cambridge University</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                  </div>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
-                    </div>
-                    <div className="text pl-3">
-                      <span className="date">2014-2015</span>
-                      <h2>Art &amp; Creative Director</h2>
-                      <span className="position">Cambridge University</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                  </div>
-                </div>
-                <div id="page-2" className="page two">
-                  <h2 className="heading">Experience</h2>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
-                    </div>
-                    <div className="text pl-3">
-                      <span className="date">2014-2015</span>
-                      <h2>Software Developer</h2>
-                      <span className="position">Cambridge University</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                  </div>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
-                    </div>
-                    <div className="text pl-3">
-                      <span className="date">2014-2015</span>
-                      <h2>Web Designer</h2>
-                      <span className="position">Cambridge University</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                  </div>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
-                    </div>
-                    <div className="text pl-3">
-                      <span className="date">2014-2015</span>
-                      <h2>Web Marketing</h2>
-                      <span className="position">Cambridge University</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                  </div>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
-                    </div>
-                    <div className="text pl-3">
-                      <span className="date">2014-2015</span>
-                      <h2>Art &amp; Creative Director</h2>
-                      <span className="position">Side Tech</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                  </div>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
-                    </div>
-                    <div className="text pl-3">
-                      <span className="date">2014-2015</span>
-                      <h2>Wordpress Developer</h2>
-                      <span className="position">Cambridge University</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                  </div>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
-                    </div>
-                    <div className="text pl-3">
-                      <span className="date">2017-2018</span>
-                      <h2>UI/UX Designer</h2>
-                      <span className="position">Cambridge University</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                  </div>
-                </div>
-                <div id="page-3" className="page three">
-                  <h2 className="heading">Skills</h2>
-                  <div className="row progress-circle mb-5">
-                    <div className="col-lg-4 mb-4">
-                      <div className="bg-white rounded-lg shadow p-4">
-                        <h2 className="h5 font-weight-bold text-center mb-4">CSS</h2>
-                        {/* Progress bar 1 */}
-                        <div className="progress mx-auto" data-value={90}>
-                          <span className="progress-left">
-                            <span className="progress-bar border-primary" />
-                          </span>
-                          <span className="progress-right">
-                            <span className="progress-bar border-primary" />
-                          </span>
-                          <div className="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                            <div className="h2 font-weight-bold">90<sup className="small">%</sup></div>
-                          </div>
-                        </div>
-                        {/* END */}
-                        {/* Demo info */}
-                        <div className="row text-center mt-4">
-                          <div className="col-6 border-right">
-                            <div className="h4 font-weight-bold mb-0">28%</div><span className="small text-gray">Last week</span>
-                          </div>
-                          <div className="col-6">
-                            <div className="h4 font-weight-bold mb-0">60%</div><span className="small text-gray">Last month</span>
-                          </div>
-                        </div>
-                        {/* END */}
-                      </div>
-                    </div>
-                    <div className="col-lg-4 mb-4">
-                      <div className="bg-white rounded-lg shadow p-4">
-                        <h2 className="h5 font-weight-bold text-center mb-4">HTML</h2>
-                        {/* Progress bar 1 */}
-                        <div className="progress mx-auto" data-value={80}>
-                          <span className="progress-left">
-                            <span className="progress-bar border-primary" />
-                          </span>
-                          <span className="progress-right">
-                            <span className="progress-bar border-primary" />
-                          </span>
-                          <div className="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                            <div className="h2 font-weight-bold">80<sup className="small">%</sup></div>
-                          </div>
-                        </div>
-                        {/* END */}
-                        {/* Demo info */}
-                        <div className="row text-center mt-4">
-                          <div className="col-6 border-right">
-                            <div className="h4 font-weight-bold mb-0">28%</div><span className="small text-gray">Last week</span>
-                          </div>
-                          <div className="col-6">
-                            <div className="h4 font-weight-bold mb-0">60%</div><span className="small text-gray">Last month</span>
-                          </div>
-                        </div>
-                        {/* END */}
-                      </div>
-                    </div>
-                    <div className="col-lg-4 mb-4">
-                      <div className="bg-white rounded-lg shadow p-4">
-                        <h2 className="h5 font-weight-bold text-center mb-4">jQuery</h2>
-                        {/* Progress bar 1 */}
-                        <div className="progress mx-auto" data-value={75}>
-                          <span className="progress-left">
-                            <span className="progress-bar border-primary" />
-                          </span>
-                          <span className="progress-right">
-                            <span className="progress-bar border-primary" />
-                          </span>
-                          <div className="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                            <div className="h2 font-weight-bold">75<sup className="small">%</sup></div>
-                          </div>
-                        </div>
-                        {/* END */}
-                        {/* Demo info */}
-                        <div className="row text-center mt-4">
-                          <div className="col-6 border-right">
-                            <div className="h4 font-weight-bold mb-0">28%</div><span className="small text-gray">Last week</span>
-                          </div>
-                          <div className="col-6">
-                            <div className="h4 font-weight-bold mb-0">60%</div><span className="small text-gray">Last month</span>
-                          </div>
-                        </div>
-                        {/* END */}
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col-md-6 animate-box">
-                      <div className="progress-wrap ftco-animate">
-                        <h3>Photoshop</h3>
-                        <div className="progress">
-                          <div className="progress-bar color-1" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} style={{width: '90%'}}>
-                            <span>90%</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-6 animate-box">
-                      <div className="progress-wrap ftco-animate">
-                        <h3>jQuery</h3>
-                        <div className="progress">
-                          <div className="progress-bar color-2" role="progressbar" aria-valuenow={85} aria-valuemin={0} aria-valuemax={100} style={{width: '85%'}}>
-                            <span>85%</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-6 animate-box">
-                      <div className="progress-wrap ftco-animate">
-                        <h3>HTML5</h3>
-                        <div className="progress">
-                          <div className="progress-bar color-3" role="progressbar" aria-valuenow={95} aria-valuemin={0} aria-valuemax={100} style={{width: '95%'}}>
-                            <span>95%</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-6 animate-box">
-                      <div className="progress-wrap ftco-animate">
-                        <h3>CSS3</h3>
-                        <div className="progress">
-                          <div className="progress-bar color-4" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100} style={{width: '90%'}}>
-                            <span>90%</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-6 animate-box">
-                      <div className="progress-wrap ftco-animate">
-                        <h3>WordPress</h3>
-                        <div className="progress">
-                          <div className="progress-bar color-5" role="progressbar" aria-valuenow={70} aria-valuemin={0} aria-valuemax={100} style={{width: '70%'}}>
-                            <span>70%</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-6 animate-box">
-                      <div className="progress-wrap ftco-animate">
-                        <h3>SEO</h3>
-                        <div className="progress">
-                          <div className="progress-bar color-6" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}}>
-                            <span>80%</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="page-4" className="page four">
-                  <h2 className="heading">Awards</h2>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
-                    </div>
-                    <div className="text pl-3">
-                      <span className="date">2014-2015</span>
-                      <h2>Top 10 Web Developer</h2>
-                      <span className="position">Cambridge University</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                  </div>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
-                    </div>
-                    <div className="text pl-3">
-                      <span className="date">2014-2015</span>
-                      <h2>Top 5 LeaderShip Exellence Winner</h2>
-                      <span className="position">Cambridge University</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                  </div>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
-                    </div>
-                    <div className="text pl-3">
-                      <span className="date">2014-2015</span>
-                      <h2>Top 4 Web Tester</h2>
-                      <span className="position">Cambridge University</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                  </div>
-                  <div className="resume-wrap d-flex ftco-animate">
-                    <div className="icon d-flex align-items-center justify-content-center">
-                      <span className="flaticon-ideas" />
-                    </div>
-                    <div className="text pl-3">
-                      <span className="date">2014-2015</span>
-                      <h2>Art &amp; Creative Director</h2>
-                      <span className="position">Cambridge University</span>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="ftco-section" id="services-section">
-          <div className="container-fluid px-md-5">
-            <div className="row justify-content-center py-5 mt-5">
-              <div className="col-md-12 heading-section text-center ftco-animate">
-                <h1 className="big big-2">Services</h1>
-                <h2 className="mb-4">Services</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-4 text-center d-flex ftco-animate">
-                <a href="#" className="services-1 shadow">
-                  <span className="icon">
-                    <i className="flaticon-analysis" />
-                  </span>
-                  <div className="desc">
-                    <h3 className="mb-5">Web Design</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                  </div>
-                </a>
-              </div>
-              <div className="col-md-4 text-center d-flex ftco-animate">
-                <a href="#" className="services-1 shadow">
-                  <span className="icon">
-                    <i className="flaticon-flasks" />
-                  </span>
-                  <div className="desc">
-                    <h3 className="mb-5">Phtography</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                  </div>
-                </a>
-              </div>
-              <div className="col-md-4 text-center d-flex ftco-animate">
-                <a href="#" className="services-1 shadow">
-                  <span className="icon">
-                    <i className="flaticon-ideas" />
-                  </span>
-                  <div className="desc">
-                    <h3 className="mb-5">Web Developer</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                  </div>
-                </a>
-              </div>
-              <div className="col-md-4 text-center d-flex ftco-animate">
-                <a href="#" className="services-1 shadow">
-                  <span className="icon">
-                    <i className="flaticon-innovation" />
-                  </span>
-                  <div className="desc">
-                    <h3 className="mb-5">App Developing</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                  </div>
-                </a>
-              </div>
-              <div className="col-md-4 text-center d-flex ftco-animate">
-                <a href="#" className="services-1 shadow">
-                  <span className="icon">
-                    <i className="flaticon-ux-design" />
-                  </span>
-                  <div className="desc">
-                    <h3 className="mb-5">Branding</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                  </div>
-                </a>
-              </div>
-              <div className="col-md-4 text-center d-flex ftco-animate">
-                <a href="#" className="services-1 shadow">
-                  <span className="icon">
-                    <i className="flaticon-idea" />
-                  </span>
-                  <div className="desc">
-                    <h3 className="mb-5">Product Strategy</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="ftco-section ftco-project" id="projects-section">
-          <div className="container-fluid px-md-0">
-            <div className="row no-gutters justify-content-center pb-5">
-              <div className="col-md-12 heading-section text-center ftco-animate">
-                <h1 className="big big-2">Projects</h1>
-                <h2 className="mb-4">Our Projects</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-              </div>
-            </div>
-            <div className="row no-gutters">
-              <div className="col-md-4">
-                <div className="project img ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/work-1.jpg)'}}>
-                  <div className="overlay" />
-                  <div className="text text-center p-4">
-                    <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                    <span>Web Design</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="project img ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/work-2.jpg)'}}>
-                  <div className="overlay" />
-                  <div className="text text-center p-4">
-                    <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                    <span>Web Design</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="project img ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/work-3.jpg)'}}>
-                  <div className="overlay" />
-                  <div className="text text-center p-4">
-                    <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                    <span>Web Design</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="project img ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/work-4.jpg)'}}>
-                  <div className="overlay" />
-                  <div className="text text-center p-4">
-                    <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                    <span>Web Design</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="project img ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/work-5.jpg)'}}>
-                  <div className="overlay" />
-                  <div className="text text-center p-4">
-                    <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                    <span>Web Design</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="project img ftco-animate d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/work-6.jpg)'}}>
-                  <div className="overlay" />
-                  <div className="text text-center p-4">
-                    <h3><a href="#">Branding &amp; Illustration Design</a></h3>
-                    <span>Web Design</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
-          <div className="container-fluid px-md-5">
-            <div className="row d-md-flex align-items-center">
-              <div className="col-md d-flex justify-content-center counter-wrap ftco-animate">
-                <div className="block-18 shadow">
-                  <div className="text">
-                    <strong className="number" data-number={100}>0</strong>
-                    <span>Awards</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md d-flex justify-content-center counter-wrap ftco-animate">
-                <div className="block-18 shadow">
-                  <div className="text">
-                    <strong className="number" data-number={1200}>0</strong>
-                    <span>Complete Projects</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md d-flex justify-content-center counter-wrap ftco-animate">
-                <div className="block-18 shadow">
-                  <div className="text">
-                    <strong className="number" data-number={1200}>0</strong>
-                    <span>Happy Customers</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md d-flex justify-content-center counter-wrap ftco-animate">
-                <div className="block-18 shadow">
-                  <div className="text">
-                    <strong className="number" data-number={500}>0</strong>
-                    <span>Cups of coffee</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="ftco-section" id="blog-section">
-          <div className="container">
-            <div className="row justify-content-center mb-5 pb-5">
-              <div className="col-md-7 heading-section text-center ftco-animate">
-                <h1 className="big big-2">Blog</h1>
-                <h2 className="mb-4">Our Blog</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-              </div>
-            </div>
-            <div className="row d-flex">
-              <div className="col-md-4 d-flex ftco-animate">
-                <div className="blog-entry justify-content-end">
-                  <a href="single.html" className="block-20" style={{backgroundImage: 'url("images/image_1.jpg")'}}>
-                  </a>
-                  <div className="text mt-3 float-right d-block">
-                    <h3 className="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                    <div className="d-flex align-items-center mb-3 meta">
-                      <p className="mb-0">
-                        <span className="mr-2">Sept. 12, 2019</span>
-                        <a href="#" className="mr-2">Admin</a>
-                        <a href="#" className="meta-chat"><span className="icon-chat" /> 3</a>
-                      </p>
-                    </div>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 d-flex ftco-animate">
-                <div className="blog-entry justify-content-end">
-                  <a href="single.html" className="block-20" style={{backgroundImage: 'url("images/image_2.jpg")'}}>
-                  </a>
-                  <div className="text mt-3 float-right d-block">
-                    <h3 className="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                    <div className="d-flex align-items-center mb-3 meta">
-                      <p className="mb-0">
-                        <span className="mr-2">Sept. 12, 2019</span>
-                        <a href="#" className="mr-2">Admin</a>
-                        <a href="#" className="meta-chat"><span className="icon-chat" /> 3</a>
-                      </p>
-                    </div>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 d-flex ftco-animate">
-                <div className="blog-entry">
-                  <a href="single.html" className="block-20" style={{backgroundImage: 'url("images/image_3.jpg")'}}>
-                  </a>
-                  <div className="text mt-3 float-right d-block">
-                    <h3 className="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                    <div className="d-flex align-items-center mb-3 meta">
-                      <p className="mb-0">
-                        <span className="mr-2">Sept. 12, 2019</span>
-                        <a href="#" className="mr-2">Admin</a>
-                        <a href="#" className="meta-chat"><span className="icon-chat" /> 3</a>
-                      </p>
-                    </div>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="ftco-section ftco-hireme img" style={{backgroundImage: 'url(images/bg_1.jpg)'}}>
-          <div className="overlay" />
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-md-7 ftco-animate text-center">
-                <h2>I'm <span>Available</span> for freelancing</h2>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p className="mb-0"><a href="#" className="btn btn-primary py-3 px-5">Hire me</a></p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="ftco-section contact-section ftco-no-pb" id="contact-section">
-          <div className="container">
-            <div className="row justify-content-center mb-5 pb-3">
-              <div className="col-md-7 heading-section text-center ftco-animate">
-                <h1 className="big big-2">Contact</h1>
-                <h2 className="mb-4">Contact Me</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-              </div>
-            </div>
-            <div className="row d-flex contact-info mb-5">
-              <div className="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div className="align-self-stretch box text-center p-4 shadow">
-                  <div className="icon d-flex align-items-center justify-content-center">
-                    <span className="icon-map-signs" />
-                  </div>
-                  <div>
-                    <h3 className="mb-4">Address</h3>
-                    <p>198 West 21th Street, Suite 721 New York NY 10016</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div className="align-self-stretch box text-center p-4 shadow">
-                  <div className="icon d-flex align-items-center justify-content-center">
-                    <span className="icon-phone2" />
-                  </div>
-                  <div>
-                    <h3 className="mb-4">Contact Number</h3>
-                    <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div className="align-self-stretch box text-center p-4 shadow">
-                  <div className="icon d-flex align-items-center justify-content-center">
-                    <span className="icon-paper-plane" />
-                  </div>
-                  <div>
-                    <h3 className="mb-4">Email Address</h3>
-                    <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 col-lg-3 d-flex ftco-animate">
-                <div className="align-self-stretch box text-center p-4 shadow">
-                  <div className="icon d-flex align-items-center justify-content-center">
-                    <span className="icon-globe" />
-                  </div>
-                  <div>
-                    <h3 className="mb-4">Website</h3>
-                    <p><a href="#">yoursite.com</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row no-gutters block-9">
-              <div className="col-md-6 order-md-last d-flex">
-                <form action="#" className="bg-light p-4 p-md-5 contact-form">
-                  <div className="form-group">
-                    <input type="text" className="form-control" placeholder="Your Name" />
-                  </div>
-                  <div className="form-group">
-                    <input type="text" className="form-control" placeholder="Your Email" />
-                  </div>
-                  <div className="form-group">
-                    <input type="text" className="form-control" placeholder="Subject" />
-                  </div>
-                  <div className="form-group">
-                    <textarea name id cols={30} rows={7} className="form-control" placeholder="Message" defaultValue={""} />
-                  </div>
-                  <div className="form-group">
-                    <input type="submit" defaultValue="Send Message" className="btn btn-primary py-3 px-5" />
-                  </div>
-                </form>
-              </div>
-              <div className="col-md-6 d-flex">
-                <div className="img" style={{backgroundImage: 'url(images/about.jpg)'}} />
-              </div>
-            </div>
-          </div>
-        </section>
-        <footer className="ftco-footer ftco-section">
-          <div className="container">
-            <div className="row mb-5">
-              <div className="col-md">
-                <div className="ftco-footer-widget mb-4">
-                  <h2 className="ftco-heading-2">About</h2>
-                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                    <li className="ftco-animate"><a href="#"><span className="icon-twitter" /></a></li>
-                    <li className="ftco-animate"><a href="#"><span className="icon-facebook" /></a></li>
-                    <li className="ftco-animate"><a href="#"><span className="icon-instagram" /></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-md">
-                <div className="ftco-footer-widget mb-4 ml-md-4">
-                  <h2 className="ftco-heading-2">Links</h2>
-                  <ul className="list-unstyled">
-                    <li><a href="#"><span className="icon-long-arrow-right mr-2" />Home</a></li>
-                    <li><a href="#"><span className="icon-long-arrow-right mr-2" />About</a></li>
-                    <li><a href="#"><span className="icon-long-arrow-right mr-2" />Services</a></li>
-                    <li><a href="#"><span className="icon-long-arrow-right mr-2" />Projects</a></li>
-                    <li><a href="#"><span className="icon-long-arrow-right mr-2" />Contact</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-md">
-                <div className="ftco-footer-widget mb-4">
-                  <h2 className="ftco-heading-2">Services</h2>
-                  <ul className="list-unstyled">
-                    <li><a href="#"><span className="icon-long-arrow-right mr-2" />Web Design</a></li>
-                    <li><a href="#"><span className="icon-long-arrow-right mr-2" />Web Development</a></li>
-                    <li><a href="#"><span className="icon-long-arrow-right mr-2" />Business Strategy</a></li>
-                    <li><a href="#"><span className="icon-long-arrow-right mr-2" />Data Analysis</a></li>
-                    <li><a href="#"><span className="icon-long-arrow-right mr-2" />Graphic Design</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-md">
-                <div className="ftco-footer-widget mb-4">
-                  <h2 className="ftco-heading-2">Have a Questions?</h2>
-                  <div className="block-23 mb-3">
+                  <div id="nav-link-wrapper">
+                    {/* Side Menu Option */}
                     <ul>
-                      <li><span className="icon icon-map-marker" /><span className="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                      <li><a href="#"><span className="icon icon-phone" /><span className="text">+2 392 3929 210</span></a></li>
-                      <li><a href="#"><span className="icon icon-envelope" /><span className="text">info@yourdomain.com</span></a></li>
+                      <li><a className="nav-link" href="#header">About</a></li>
+                      <li><a className="nav-link" href="#experience">Experience</a></li>
+                      <li><a className="nav-link" href="#skills">Skills</a></li>
+                      <li><a className="nav-link" href="#education">Education</a></li>
+                      <li><a className="nav-link" href="#services">Services</a></li>
+                      <li><a className="nav-link" href="#portfolios">Portfolios</a></li>
+                      <li><a className="nav-link" href="#achievement">Achievement</a></li>
+                      <li><a className="nav-link" href="#publications">Publications</a></li>
+                      <li><a className="nav-link" href="#blog">Blog</a></li>
+                      <li><a className="nav-link" href="#clients">Clients</a></li>
+                      <li><a className="nav-link" href="#pricing">Pricing</a></li>
+                      <li><a className="nav-link" href="#interest">Interest</a></li>
+                      <li><a className="nav-link" href="#contact">Contact</a></li>
                     </ul>
+                  </div>
+                </div>
+                {/* ./Side Nav */}
+                {/* Side Nav Mask */}
+                <div id="side-nav-mask" />
+              </div>
+            </div>
+          </nav>
+          {/* Name and Status */}
+          <div id="intro" className="container">
+            <h1 className="text-center text-capitalize">John Robert Smith</h1>
+            <h4 className="text-center text-capitalize">Web Designer &amp; Developer, UX/UI Expert</h4>
+          </div>
+        </div>
+        {/*==========================================
+                   ABOUT
+===========================================*/}
+        <section id="about" className="section">
+          <div className="container">
+            <div className="row">
+              <div className="col col-md-12">
+                {/* Profile Picture [Square] */}
+                <div id="profile" className="center-block">
+                  <img src="images/profile-pic.png" />
+                </div>
+                {/* Social Links */}
+                <div id="intro-div" className="card content-wrapper">
+                  <ul className="text-center list-inline">
+                    <li><a href="#0" target="_blank"><i className="ion-social-facebook" /></a></li>
+                    <li><a href="#0" target="_blank"><i className="ion-social-twitter" /></a></li>
+                    <li><a href="#0" target="_blank"><i className="ion-social-linkedin" /></a></li>
+                    <li><a href="#0" target="_blank"><i className="ion-social-googleplus" /></a></li>
+                    <li><a href="#0" target="_blank"><i className="ion-social-instagram" /></a></li>
+                  </ul>
+                  {/* Some Intro About You */}
+                  <p className="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies a. Vestibulum
+                    at mollis ex, ac consectetur massa. Donec nunc dui, laoreet a nibh et, semper tincidunt nunc. Donec ac posuere tellus. Pellentesque tempus suscipit velit sit amet bibendum.
+                  </p>
+                  <div className="row">
+                    {/* Download & Contact Button */}
+                    <div className="col col-xs-12 col-sm-12 col-md-12 text-center">
+                      {/* Your CV File */}
+                      <a href="cv/cv-file.docx" download="cv-file.docx" className="btn waves-effect waves-light btn-primary custom-btn">Download CV</a>
+                      <a href="#contact" className="btn waves-effect waves-light btn-primary custom-btn">Contact Me</a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+        {/*==========================================
+                   EXPERIENCE
+===========================================*/}
+        <section id="experience" className="section">
+          <h4 className="text-uppercase text-center">Experience</h4>
+          <div className="container">
             <div className="row">
-              <div className="col-md-12 text-center">
-                <p>{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                  Copyright © All rights reserved | This template is made with <i className="icon-heart color-danger" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                  {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</p>
+              <div className="col col-md-12 col-sm-12 col-xs-12">
+                {/* Timeline */}
+                <div className="timeline center-block">
+                  <ul>
+                    <li className="card" data-aos="fade-up">
+                      <i className="title-icon fa fa-circle" />
+                      <div className="timeline-content">
+                        {/* Heading */}
+                        <div className="timeline-header">
+                          <h3 className="text-capitalize">Chief Project Manager</h3>
+                        </div>
+                        {/* Organization and Period */}
+                        <p className="sub-heading">Lorem Ipsum Technology - South Africa</p>
+                        <p className="sub-heading">January 2012 - December 2015</p>
+                        {/* Job Summary */}
+                        <p className="content-p">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="card" data-aos="fade-up">
+                      <i className="title-icon fa fa-circle" />
+                      <div className="timeline-content">
+                        {/* Heading */}
+                        <div className="timeline-header">
+                          <h3 className="text-capitalize">Senior UX/UI Designer</h3>
+                        </div>
+                        {/* Organization and Period */}
+                        <p className="sub-heading">Lorem Ipsum Technology - South Africa</p>
+                        <p className="sub-heading">January 2012 - December 2015</p>
+                        {/* Job Summary */}
+                        <p className="content-p">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="card" data-aos="fade-up">
+                      <i className="title-icon fa fa-circle" />
+                      <div className="timeline-content">
+                        {/* Heading */}
+                        <div className="timeline-header">
+                          <h3 className="text-capitalize">Chief Project Manager</h3>
+                        </div>
+                        {/* Organization and Period */}
+                        <p className="sub-heading">Lorem Ipsum Technology - South Africa</p>
+                        <p className="sub-heading">January 2012 - December 2015</p>
+                        {/* Job Summary */}
+                        <p className="content-p">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="card" data-aos="fade-up">
+                      <i className="title-icon fa fa-circle" />
+                      <div className="timeline-content">
+                        {/* Heading */}
+                        <div className="timeline-header">
+                          <h3 className="text-capitalize">Senior UX/UI Designer</h3>
+                        </div>
+                        {/* Organization and Period */}
+                        <p className="sub-heading">Lorem Ipsum Technology - South Africa</p>
+                        <p className="sub-heading">January 2012 - December 2015</p>
+                        {/* Job Summary */}
+                        <p className="content-p">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                {/* End of Timeline */}
               </div>
             </div>
+          </div>
+        </section>
+        {/*==========================================
+                   SKILLS
+===========================================*/}
+        <section id="skills" className="section">
+          <h4 className="text-uppercase text-center">Skills</h4>
+          <div className="container">
+            <div className="row">
+              {/* Professional Skills */}
+              <div className="col col-md-4 col-sm-4 col-xs-12">
+                <div className="card content-wrapper skill-wrapper">
+                  <h5 className="text-center skill-title">Professional</h5>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>UI/UX Design<span>90%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="90%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>PHP Web Application<span>80%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="80%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>Android Development<span>70%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="70%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>Adobe Design Tools<span>70%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="70%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>Microsoft Office<span>80%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="80%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Personal Skills */}
+              <div className="col col-md-4 col-sm-4 col-xs-12">
+                <div className="card content-wrapper skill-wrapper">
+                  <h5 className="text-center skill-title">Personal</h5>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>Committed<span>100%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="100%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>Punctual<span>90%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="90%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>Leadership<span>80%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="80%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>Communicative<span>70%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="70%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>Analytical Skill<span>80%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="80%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Language Skills */}
+              <div className="col col-md-4 col-sm-4 col-xs-12">
+                <div className="card content-wrapper skill-wrapper">
+                  <h5 className="text-center skill-title">Language</h5>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>English (Native)<span>100%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="100%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>Spanish<span>90%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="90%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>French<span>80%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="80%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>Arabic<span>70%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="70%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="skill-progress-div">
+                    {/* Add Skill */}
+                    <p>Hindi<span>60%</span></p>
+                    {/* Edit Value Here */}
+                    <div className="progress skill-progress" data-percent="60%">
+                      <div className="determinate skill-determinate">
+                        <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*==========================================
+                   EDUCATION
+===========================================*/}
+        <section id="education" className="section">
+          <h4 className="text-uppercase text-center">Education</h4>
+          <div className="container">
+            <div className="row">
+              <div className="col col-md-12 col-sm-12 col-xs-12">
+                {/* Timeline */}
+                <div className="timeline center-block">
+                  <ul>
+                    <li className="card" data-aos="fade-up">
+                      <i className="title-icon fa fa-circle" />
+                      <div className="timeline-content">
+                        {/* Heading */}
+                        <div className="timeline-header">
+                          <h3 className="text-capitalize">Master of Computer Science &amp; engineering</h3>
+                        </div>
+                        {/* Institution, Period & result */}
+                        <p className="sub-heading">Harvard University - United States</p>
+                        <p className="sub-heading">January 2012 - December 2015</p>
+                        <p className="sub-heading">Result: 4.0 out of 4.0</p>
+                        {/* Education Summary */}
+                        <p className="content-p">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="card" data-aos="fade-up">
+                      <i className="title-icon fa fa-circle" />
+                      <div className="timeline-content">
+                        {/* Heading */}
+                        <div className="timeline-header">
+                          <h3 className="text-capitalize">Bachelor Of Computer Science &amp; Engineering</h3>
+                        </div>
+                        {/* Institution, Period & result */}
+                        <p className="sub-heading">Harvard University - United States</p>
+                        <p className="sub-heading">January 2012 - December 2015</p>
+                        <p className="sub-heading">Result: 4.0 out of 4.0</p>
+                        {/* Education Summary */}
+                        <p className="content-p">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="card" data-aos="fade-up">
+                      <i className="title-icon fa fa-circle" />
+                      <div className="timeline-content">
+                        {/* Heading */}
+                        <div className="timeline-header">
+                          <h3 className="text-capitalize">Master of Computer Science &amp; engineering</h3>
+                        </div>
+                        {/* Institution, Period & result */}
+                        <p className="sub-heading">Harvard University - United States</p>
+                        <p className="sub-heading">January 2012 - December 2015</p>
+                        <p className="sub-heading">Result: 4.0 out of 4.0</p>
+                        {/* Education Summary */}
+                        <p className="content-p">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="card" data-aos="fade-up">
+                      <i className="title-icon fa fa-circle" />
+                      <div className="timeline-content">
+                        {/* Heading */}
+                        <div className="timeline-header">
+                          <h3 className="text-capitalize">Bachelor Of Computer Science &amp; Engineering</h3>
+                        </div>
+                        {/* Institution, Period & result */}
+                        <p className="sub-heading">Harvard University - United States</p>
+                        <p className="sub-heading">January 2012 - December 2015</p>
+                        <p className="sub-heading">Result: 4.0 out of 4.0</p>
+                        {/* Education Summary */}
+                        <p className="content-p">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, facilis quo. Maiores magnam modi ab libero praesentium blanditiis consequatur aspernatur accusantium maxime molestiae sunt ipsa.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                {/* End of Timeline */}
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*==========================================
+                   SERVICES
+===========================================*/}
+        <section id="services" className="section">
+          <h4 className="text-uppercase text-center">Services</h4>
+          <div className="container">
+            <ul className="row">
+              {/* 1st service */}
+              <li className="col col-md-4 col-sm-6 col-xs-12">
+                <div className="card service-item text-center">
+                  {/* Edit icon and title here */}
+                  <i className="ion-social-android" data-aos="fade" data-aos-delay={300} data-aos-offset={0} />
+                  <h6 className="text-capitalize">Android Application</h6>
+                  {/* service info here */}
+                  <p className="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies.
+                  </p>
+                </div>
+              </li>
+              {/* ./1st service */}
+              {/* 2nd service */}
+              <li className="col col-md-4 col-sm-6 col-xs-12">
+                <div className="card service-item text-center">
+                  {/* Edit icon and title here */}
+                  <i className="ion-code" data-aos="fade" data-aos-delay={300} data-aos-offset={0} />
+                  <h6 className="text-capitalize">Web Development</h6>
+                  {/* service info here */}
+                  <p className="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies.
+                  </p>
+                </div>
+              </li>
+              {/* ./2nd service */}
+              {/* 3rd service */}
+              <li className="col col-md-4 col-sm-6 col-xs-12">
+                <div className="card service-item text-center">
+                  {/* Edit icon and title here */}
+                  <i className="ion-social-apple" data-aos="fade" data-aos-delay={300} data-aos-offset={0} />
+                  <h6 className="text-capitalize">IOS Application</h6>
+                  {/* service info here */}
+                  <p className="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies.
+                  </p>
+                </div>
+              </li>
+              {/* ./3rd service */}
+              {/* 4th service */}
+              <li className="col col-md-4 col-sm-6 col-xs-12">
+                <div className="card service-item text-center">
+                  {/* Edit icon and title here */}
+                  <i className="ion-cloud" data-aos="fade" data-aos-delay={300} data-aos-offset={0} />
+                  <h6 className="text-capitalize">Cloud Computing</h6>
+                  {/* service info here */}
+                  <p className="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies.
+                  </p>
+                </div>
+              </li>
+              {/* ./5th service */}
+              {/* 5th service */}
+              <li className="col col-md-4 col-sm-6 col-xs-12">
+                <div className="card service-item text-center">
+                  {/* Edit icon and title here */}
+                  <i className="ion-paintbrush" data-aos="fade" data-aos-delay={300} data-aos-offset={0} />
+                  <h6 className="text-capitalize">UI/UX Design</h6>
+                  {/* service info here */}
+                  <p className="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies.
+                  </p>
+                </div>
+              </li>
+              {/* ./5th service */}
+              {/* 6th service */}
+              <li className="col col-md-4 col-sm-6 col-xs-12">
+                <div className="card service-item text-center">
+                  {/* Edit icon and title here */}
+                  <i className="ion-settings" data-aos="fade" data-aos-delay={300} data-aos-offset={0} />
+                  <h6 className="text-capitalize">Troubleshooting</h6>
+                  {/* service info here */}
+                  <p className="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies.
+                  </p>
+                </div>
+              </li>
+              {/* ./6th service */}
+            </ul>
+          </div>
+        </section>
+        {/*==========================================
+                   PORTFOLIOS
+===========================================*/}
+        <section id="portfolios" className="section">
+          <h4 className="text-uppercase text-center">Portfolios</h4>
+          <div className="container">
+            <div className="row">
+              {/* A basic setup of simple mode filter controls, all you have to do is use data-filter="all"
+            for an unfiltered gallery and then the values of your categories to filter between them */}
+              <ul className="text-center simple-filter" data-aos="zoom-in" data-aos-duration={500} data-aos-delay={300}>
+                <li className="active-cat" data-filter="all"><a>All</a></li>
+                <li data-filter={1}><a>Creative</a></li>
+                <li data-filter={2}><a>Photography</a></li>
+                <li data-filter={3}><a>Food</a></li>
+                <li data-filter={4}><a>Colorful</a></li>
+                <li data-filter={5}><a>Personal</a></li>
+              </ul>
+              <div className="filtr-container center-block">
+                {/* 1st Portfolio, Filter Option */}
+                <div className="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="1, 5">
+                  <div className="portfolio card">
+                    <figure className="hover-effect">
+                      {/* Portfolio Image */}
+                      <img className="img-responsive" src="images/portfolios/p1.jpg" alt="" />
+                      {/* open-modal ID */}
+                      <a data-toggle="modal" data-target="#modal1" href="#0">
+                        <figcaption><span>View Details</span></figcaption>
+                      </a>
+                    </figure>
+                    {/* Portfolio Title */}
+                    <h6 className="text-capitalize text-center">Portfolio Title Here</h6>
+                  </div>
+                </div>
+                {/* ./Portfolio */}
+                {/* 1st MODAL */}
+                <div id="modal1" className="modal" tabIndex={-1} role="dialog">
+                  <div className="modal-dialog modal-lg">
+                    <div className="modal-content animated zoomIn">
+                      <h3 className="text-capitalize text-left">Project title will be placed here</h3>
+                      <div className="row">
+                        {/* Modal Image */}
+                        <img className="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p1.jpg" alt="" />
+                        {/* Modal Content */}
+                        <div className="content col-md-4 col-sm-12 col-xs-12">
+                          {/* Date, Category & Client Name of the Project */}
+                          <p><span>Date:&nbsp;</span> 5, July 2015</p>
+                          <p><span>Category:&nbsp;</span> System Development</p>
+                          <p><span>Client:&nbsp;</span> Mr. John Doe</p>
+                          {/* Live Demo Link */}
+                          <a href="#0" target="_blank" className="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
+                          {/* Some Information Abut the Project */}
+                          <p className="text-left">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum
+                            elit ultricies. Lorem ipsum dolor sit amet.
+                          </p>
+                          <button data-dismiss="modal" className="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* ./modal */}
+                {/* 2nd Portfolio, Filter Option */}
+                <div className="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="2, 3, 4">
+                  <div className="portfolio card">
+                    <figure className="hover-effect">
+                      {/* Portfolio Image */}
+                      <img className="img-responsive" src="images/portfolios/p2.jpg" alt="" />
+                      {/* open-modal ID */}
+                      <a data-toggle="modal" data-target="#modal2" href="#0">
+                        <figcaption><span>View Details</span></figcaption>
+                      </a>
+                    </figure>
+                    {/* Portfolio Title */}
+                    <h6 className="text-capitalize text-center">Portfolio Title Here</h6>
+                  </div>
+                </div>
+                {/* ./Portfolio */}
+                {/* 2nd MODAL */}
+                <div id="modal2" className="modal" tabIndex={-1} role="dialog">
+                  <div className="modal-dialog modal-lg">
+                    <div className="modal-content animated zoomIn">
+                      <h3 className="text-capitalize text-left">Project title will be placed here</h3>
+                      <div className="row">
+                        {/* Modal Image */}
+                        <img className="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p2.jpg" alt="" />
+                        {/* Modal Content */}
+                        <div className="content col-md-4 col-sm-12 col-xs-12">
+                          {/* Date, Category & Client Name of the Project */}
+                          <p><span>Date:&nbsp;</span> 5, July 2015</p>
+                          <p><span>Category:&nbsp;</span> System Development</p>
+                          <p><span>Client:&nbsp;</span> Mr. John Doe</p>
+                          {/* Live Demo Link */}
+                          <a href="#0" target="_blank" className="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
+                          {/* Some Information Abut the Project */}
+                          <p className="text-left">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum
+                            elit ultricies. Lorem ipsum dolor sit amet.
+                          </p>
+                          <button data-dismiss="modal" className="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* ./modal */}
+                {/* 3rd Portfolio, Filter Option */}
+                <div className="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="1, 4">
+                  <div className="portfolio card">
+                    <figure className="hover-effect">
+                      {/* Portfolio Imag e*/}
+                      <img className="img-responsive" src="images/portfolios/p3.jpg" alt="" />
+                      {/* open-modal ID */}
+                      <a data-toggle="modal" data-target="#modal3" href="#0">
+                        <figcaption><span>View Details</span></figcaption>
+                      </a>
+                    </figure>
+                    {/* Portfolio Title */}
+                    <h6 className="text-capitalize text-center">Portfolio Title Here</h6>
+                  </div>
+                </div>
+                {/* ./Portfolio */}
+                {/* 3rd MODAL */}
+                <div id="modal3" className="modal" tabIndex={-1} role="dialog">
+                  <div className="modal-dialog modal-lg">
+                    <div className="modal-content animated zoomIn">
+                      <h3 className="text-capitalize text-left">Project title will be placed here</h3>
+                      <div className="row">
+                        {/* Modal Image */}
+                        <img className="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p3.jpg" alt="" />
+                        {/* Modal Content */}
+                        <div className="content col-md-4 col-sm-12 col-xs-12">
+                          {/* Date, Category & Client Name of the Project */}
+                          <p><span>Date:&nbsp;</span> 5, July 2015</p>
+                          <p><span>Category:&nbsp;</span> System Development</p>
+                          <p><span>Client:&nbsp;</span> Mr. John Doe</p>
+                          {/* Live Demo Link */}
+                          <a href="#0" target="_blank" className="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
+                          {/* Some Information Abut the Project */}
+                          <p className="text-left">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum
+                            elit ultricies. Lorem ipsum dolor sit amet.
+                          </p>
+                          <button data-dismiss="modal" className="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* ./modal */}
+                {/* 4th Portfolio, Filter Option */}
+                <div className="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="1, 5">
+                  <div className="portfolio card">
+                    <figure className="hover-effect">
+                      {/* Portfolio Image */}
+                      <img className="img-responsive" src="images/portfolios/p4.jpg" alt="" />
+                      {/* open-modal ID */}
+                      <a data-toggle="modal" data-target="#modal4" href="#0">
+                        <figcaption><span>View Details</span></figcaption>
+                      </a>
+                    </figure>
+                    {/* Portfolio Title */}
+                    <h6 className="text-capitalize text-center">Portfolio Title Here</h6>
+                  </div>
+                </div>
+                {/* ./Portfolio */}
+                {/* 4th MODAL */}
+                <div id="modal4" className="modal" tabIndex={-1} role="dialog">
+                  <div className="modal-dialog modal-lg">
+                    <div className="modal-content animated zoomIn">
+                      <h3 className="text-capitalize text-left">Project title will be placed here</h3>
+                      <div className="row">
+                        {/* Modal Image */}
+                        <img className="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p4.jpg" alt="" />
+                        {/* Modal Content */}
+                        <div className="content col-md-4 col-sm-12 col-xs-12">
+                          {/* Date, Category & Client Name of the Project */}
+                          <p><span>Date:&nbsp;</span> 5, July 2015</p>
+                          <p><span>Category:&nbsp;</span> System Development</p>
+                          <p><span>Client:&nbsp;</span> Mr. John Doe</p>
+                          {/* Live Demo Link */}
+                          <a href="#0" target="_blank" className="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
+                          {/* Some Information Abut the Project */}
+                          <p className="text-left">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum
+                            elit ultricies. Lorem ipsum dolor sit amet.
+                          </p>
+                          <button data-dismiss="modal" className="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* ./modal */}
+                {/* 5th Portfolio, Filter Option */}
+                <div className="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="2, 3, 4">
+                  <div className="portfolio card">
+                    <figure className="hover-effect">
+                      {/* Portfolio Image */}
+                      <img className="img-responsive" src="images/portfolios/p5.jpg" alt="" />
+                      {/* open-modal ID */}
+                      <a data-toggle="modal" data-target="#modal5" href="#0">
+                        <figcaption><span>View Details</span></figcaption>
+                      </a>
+                    </figure>
+                    {/* Portfolio Title */}
+                    <h6 className="text-capitalize text-center">Portfolio Title Here</h6>
+                  </div>
+                </div>
+                {/* ./Portfolio */}
+                {/* 5th MODAL */}
+                <div id="modal5" className="modal" tabIndex={-1} role="dialog">
+                  <div className="modal-dialog modal-lg">
+                    <div className="modal-content animated zoomIn">
+                      <h3 className="text-capitalize text-left">Project title will be placed here</h3>
+                      <div className="row">
+                        {/* Modal Image */}
+                        <img className="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p5.jpg" alt="" />
+                        {/* Modal Content */}
+                        <div className="content col-md-4 col-sm-12 col-xs-12">
+                          {/* Date, Category & Client Name of the Project */}
+                          <p><span>Date:&nbsp;</span> 5, July 2015</p>
+                          <p><span>Category:&nbsp;</span> System Development</p>
+                          <p><span>Client:&nbsp;</span> Mr. John Doe</p>
+                          {/* Live Demo Link */}
+                          <a href="#0" target="_blank" className="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
+                          {/* Some Information Abut the Project */}
+                          <p className="text-left">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum
+                            elit ultricies. Lorem ipsum dolor sit amet.
+                          </p>
+                          <button data-dismiss="modal" className="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* ./modal */}
+                {/* 6th Portfolio, Filter Option */}
+                <div className="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category={2}>
+                  <div className="portfolio card">
+                    <figure className="hover-effect">
+                      {/* Portfolio Image */}
+                      <img className="img-responsive" src="images/portfolios/p6.jpg" alt="" />
+                      {/* open-modal ID */}
+                      <a data-toggle="modal" data-target="#modal6" href="#0">
+                        <figcaption><span>View Details</span></figcaption>
+                      </a>
+                    </figure>
+                    {/* Portfolio Title */}
+                    <h6 className="text-capitalize text-center">Portfolio Title Here</h6>
+                  </div>
+                </div>
+                {/* ./Portfolio */}
+                {/* 6th MODAL */}
+                <div id="modal6" className="modal" tabIndex={-1} role="dialog">
+                  <div className="modal-dialog modal-lg">
+                    <div className="modal-content animated zoomIn">
+                      <h3 className="text-capitalize text-left">Project title will be placed here</h3>
+                      <div className="row">
+                        {/* Modal Image */}
+                        <img className="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p6.jpg" alt="" />
+                        {/* Modal Content */}
+                        <div className="content col-md-4 col-sm-12 col-xs-12">
+                          {/* Date, Category & Client Name of the Project */}
+                          <p><span>Date:&nbsp;</span> 5, July 2015</p>
+                          <p><span>Category:&nbsp;</span> System Development</p>
+                          <p><span>Client:&nbsp;</span> Mr. John Doe</p>
+                          {/* Live Demo Link */}
+                          <a href="#0" target="_blank" className="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
+                          {/* Some Information Abut the Project */}
+                          <p className="text-left">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum
+                            elit ultricies. Lorem ipsum dolor sit amet.
+                          </p>
+                          <button data-dismiss="modal" className="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* ./modal */}
+                {/* 7th Portfolio, Filter Option */}
+                <div className="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category={5}>
+                  <div className="portfolio card">
+                    <figure className="hover-effect">
+                      {/* Portfolio Image */}
+                      <img className="img-responsive" src="images/portfolios/p7.jpg" alt="" />
+                      {/* open-modal ID */}
+                      <a data-toggle="modal" data-target="#modal7" href="#0">
+                        <figcaption><span>View Details</span></figcaption>
+                      </a>
+                    </figure>
+                    {/* Portfolio Title */}
+                    <h6 className="text-capitalize text-center">Portfolio Title Here</h6>
+                  </div>
+                </div>
+                {/* ./Portfolio */}
+                {/* 7th MODAL */}
+                <div id="modal7" className="modal" tabIndex={-1} role="dialog">
+                  <div className="modal-dialog modal-lg">
+                    <div className="modal-content animated zoomIn">
+                      <h3 className="text-capitalize text-left">Project title will be placed here</h3>
+                      <div className="row">
+                        {/* Modal Image */}
+                        <img className="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p7.jpg" alt="" />
+                        {/* Modal Content */}
+                        <div className="content col-md-4 col-sm-12 col-xs-12">
+                          {/* Date, Category & Client Name of the Project */}
+                          <p><span>Date:&nbsp;</span> 5, July 2015</p>
+                          <p><span>Category:&nbsp;</span> System Development</p>
+                          <p><span>Client:&nbsp;</span> Mr. John Doe</p>
+                          {/* Live Demo Link */}
+                          <a href="#0" target="_blank" className="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
+                          {/* Some Information Abut the Project */}
+                          <p className="text-left">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum
+                            elit ultricies. Lorem ipsum dolor sit amet.
+                          </p>
+                          <button data-dismiss="modal" className="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* ./modal */}
+                {/* 8th Portfolio, Filter Option */}
+                <div className="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="2, 3">
+                  <div className="portfolio card">
+                    <figure className="hover-effect">
+                      {/* Portfolio Image */}
+                      <img className="img-responsive" src="images/portfolios/p8.jpg" alt="" />
+                      {/* open-modal ID */}
+                      <a data-toggle="modal" data-target="#modal8" href="#0">
+                        <figcaption><span>View Details</span></figcaption>
+                      </a>
+                    </figure>
+                    {/* Portfolio Title */}
+                    <h6 className="text-capitalize text-center">Portfolio Title Here</h6>
+                  </div>
+                </div>
+                {/* ./Portfolio */}
+                {/* 8th MODAL */}
+                <div id="modal8" className="modal" tabIndex={-1} role="dialog">
+                  <div className="modal-dialog modal-lg">
+                    <div className="modal-content animated zoomIn">
+                      <h3 className="text-capitalize text-left">Project title will be placed here</h3>
+                      <div className="row">
+                        {/* Modal Image */}
+                        <img className="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p8.jpg" alt="" />
+                        {/* Modal Content */}
+                        <div className="content col-md-4 col-sm-12 col-xs-12">
+                          {/* Date, Category & Client Name of the Project */}
+                          <p><span>Date:&nbsp;</span> 5, July 2015</p>
+                          <p><span>Category:&nbsp;</span> System Development</p>
+                          <p><span>Client:&nbsp;</span> Mr. John Doe</p>
+                          {/* Live Demo Link */}
+                          <a href="#0" target="_blank" className="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
+                          {/* Some Information Abut the Project */}
+                          <p className="text-left">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum
+                            elit ultricies. Lorem ipsum dolor sit amet.
+                          </p>
+                          <button data-dismiss="modal" className="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* ./modal */}
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*==========================================
+               ACHIEVEMENT
+===========================================*/}
+        <section id="achievement" className="section">
+          <h4 className="text-uppercase text-center">Achievement</h4>
+          <div className="container">
+            <div className="row">
+              {/* 1st Achievement */}
+              <div className="col col-md-4 col-sm-6 col-xs-12">
+                <div className="achievement">
+                  <div className="achievement-top-bar">
+                    {/* Achievement Title Here */}
+                    <h5 className="text-center text-capitalize">ACM Software System Award</h5>
+                  </div>
+                  <div className="achievement-inner">
+                    <div className="achievement-header">
+                      <div className="achievement-heading">
+                        {/* Icon and Date */}
+                        <i className="text-center ion-ribbon-a" />
+                        <h6 className="text-center">June 2016</h6>
+                      </div>
+                      {/* Button ID For Content ID */}
+                      <a id="btn-1" className="btn-floating waves-effect waves-light btn-large achievement-more-btn custom-btn" data-aos="zoom-in" data-aos-delay={300}>
+                        <i className="ion-ios-arrow-down" />
+                      </a>
+                    </div>
+                    {/* Content ID */}
+                    <div id="content-1" className="achievement-content">
+                      {/* Description */}
+                      <p className="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* ./1st Achievement */}
+              {/* 2nd Achievement */}
+              <div className="col col-md-4 col-sm-6 col-xs-12">
+                <div className="achievement">
+                  <div className="achievement-top-bar">
+                    {/* Achievement Title Here */}
+                    <h5 className="text-center text-capitalize">National Badminton Champion</h5>
+                  </div>
+                  <div className="achievement-inner">
+                    <div className="achievement-header">
+                      <div className="achievement-heading">
+                        {/* Icon and Date */}
+                        <i className="text-center ion-trophy" />
+                        <h6 className="text-center">April 2016</h6>
+                      </div>
+                      {/* Button ID For Content ID */}
+                      <a id="btn-2" className="btn-floating waves-effect waves-light btn-large achievement-more-btn custom-btn" data-aos="zoom-in" data-aos-delay={300}>
+                        <i className="ion-ios-arrow-down" />
+                      </a>
+                    </div>
+                    {/* Content ID */}
+                    <div id="content-2" className="achievement-content">
+                      {/* Description */}
+                      <p className="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* ./2nd Achievement */}
+              {/* 3rd Achievement */}
+              <div className="col col-md-4 col-sm-6 col-xs-12">
+                <div className="achievement">
+                  <div className="achievement-top-bar">
+                    {/* Achievement Title Here */}
+                    <h5 className="text-center text-capitalize">Microsoft Award</h5>
+                  </div>
+                  <div className="achievement-inner">
+                    <div className="achievement-header">
+                      <div className="achievement-heading">
+                        {/* Icon and Date */}
+                        <i className="text-center ion-ribbon-b" />
+                        <h6 className="text-center">June 2015</h6>
+                      </div>
+                      {/* Button ID For Content ID */}
+                      <a id="btn-3" className="btn-floating waves-effect waves-light btn-large achievement-more-btn custom-btn" data-aos="zoom-in" data-aos-delay={300}>
+                        <i className="ion-ios-arrow-down" />
+                      </a>
+                    </div>
+                    {/* Content ID */}
+                    <div id="content-3" className="achievement-content">
+                      {/* Description */}
+                      <p className="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* ./3rd Achievement */}
+              {/* 4th Achievement */}
+              <div className="col col-md-4 col-sm-6 col-xs-12">
+                <div className="achievement">
+                  <div className="achievement-top-bar">
+                    {/* Achievement Title Here */}
+                    <h5 className="text-center text-capitalize">Fire Bal Pro Membership</h5>
+                  </div>
+                  <div className="achievement-inner">
+                    <div className="achievement-header">
+                      <div className="achievement-heading">
+                        {/* Icon and Date */}
+                        <i className="text-center ion-fireball" />
+                        <h6 className="text-center">May 2015</h6>
+                      </div>
+                      {/* Button ID For Content ID */}
+                      <a id="btn-4" className="btn-floating waves-effect waves-light btn-large achievement-more-btn custom-btn" data-aos="zoom-in" data-aos-delay={300}>
+                        <i className="ion-ios-arrow-down" />
+                      </a>
+                    </div>
+                    {/* Content ID */}
+                    <div id="content-4" className="achievement-content">
+                      {/* Description */}
+                      <p className="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* ./4th Achievement */}
+              {/* 5th Achievement */}
+              <div className="col col-md-4 col-sm-6 col-xs-12">
+                <div className="achievement">
+                  <div className="achievement-top-bar">
+                    {/* Achievement Title Here */}
+                    <h5 className="text-center text-capitalize">National Biking Champion</h5>
+                  </div>
+                  <div className="achievement-inner">
+                    <div className="achievement-header">
+                      <div className="achievement-heading">
+                        {/* Icon and Date */}
+                        <i className="text-center ion-android-bicycle" />
+                        <h6 className="text-center">April 2014</h6>
+                      </div>
+                      {/* Button ID For Content ID */}
+                      <a id="btn-5" className="btn-floating waves-effect waves-light btn-large achievement-more-btn custom-btn" data-aos="zoom-in" data-aos-delay={300}>
+                        <i className="ion-ios-arrow-down" />
+                      </a>
+                    </div>
+                    {/* Content ID */}
+                    <div id="content-5" className="achievement-content">
+                      {/* Description */}
+                      <p className="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* ./5th Achievement */}
+              {/* 6th Achievement */}
+              <div className="col col-md-4 col-sm-6 col-xs-12">
+                <div className="achievement">
+                  <div className="achievement-top-bar">
+                    {/* Achievement Title Here */}
+                    <h5 className="text-center text-capitalize">ECO Club Pro Membership</h5>
+                  </div>
+                  <div className="achievement-inner">
+                    <div className="achievement-header">
+                      <div className="achievement-heading">
+                        {/* Icon and Date */}
+                        <i className="text-center ion-leaf" />
+                        <h6 className="text-center">June 2014</h6>
+                      </div>
+                      {/* Button ID For Content ID */}
+                      <a id="btn-6" className="btn-floating waves-effect waves-light btn-large achievement-more-btn custom-btn" data-aos="zoom-in" data-aos-delay={300}>
+                        <i className="ion-ios-arrow-down" />
+                      </a>
+                    </div>
+                    {/* Content ID */}
+                    <div id="content-6" className="achievement-content">
+                      {/* Description */}
+                      <p className="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* ./6th Achievement */}
+            </div>
+          </div>
+        </section>
+        {/*==========================================
+               PUBLICATIONS
+===========================================*/}
+        <section id="publications" className="section">
+          <h4 className="text-uppercase text-center">Publications</h4>
+          <div className="container">
+            <div className="row">
+              {/* 1st publication */}
+              <div className="col col-md-6 col-sm-12 col-xs-12">
+                <div className="publication card text-center">
+                  {/* place Icon Here */}
+                  <div className="icon-div text-center" data-aos="zoom-in" data-aos-delay={300}><i className="ion-ios-book" /></div>
+                  <h6 className="text-center text-capitalize">Name of the book will be placed here</h6>
+                  {/* Type and Published date here */}
+                  <ul className="text-center list-inline">
+                    <li><i className="ion-ios-pricetag" />Type: Novel</li>
+                    <li><i className="ion-calendar" />Published On: 12 Jun 2015</li>
+                  </ul>
+                  {/* Some Info About Item */}
+                  <p className="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel. Vestibulum venenatis vestibulum elit ultricies.
+                  </p>
+                  <div className="row">
+                    {/* Item link here */}
+                    <a href="#0" className="btn waves-effect waves-light btn-primary custom-btn">Read Now</a>
+                  </div>
+                </div>
+              </div>
+              {/* ./1st publication */}
+              {/* 2nd publication */}
+              <div className="col col-md-6 col-sm-12 col-xs-12">
+                <div className="publication card text-center">
+                  {/* place Icon Here */}
+                  <div className="icon-div text-center" data-aos="zoom-in" data-aos-delay={300}><i className="ion-ios-paper" /></div>
+                  <h6 className="text-center text-capitalize">Subject of research will be placed here</h6>
+                  {/* Type and Published date here */}
+                  <ul className="text-center list-inline">
+                    <li><i className="ion-ios-pricetag" />Type: Research</li>
+                    <li><i className="ion-calendar" />Published On: 12 Jun 2015</li>
+                  </ul>
+                  {/* Some Info About Item */}
+                  <p className="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel. Vestibulum venenatis vestibulum elit ultricies.
+                  </p>
+                  <div className="row">
+                    {/* Item link here */}
+                    <a href="#0" className="btn waves-effect waves-light btn-primary custom-btn">Read Now</a>
+                  </div>
+                </div>
+              </div>
+              {/* ./2nd publication */}
+              {/* 3rd publication */}
+              <div className="col col-md-6 col-sm-12 col-xs-12">
+                <div className="publication card text-center">
+                  {/* place Icon Here */}
+                  <div className="icon-div text-center" data-aos="zoom-in" data-aos-delay={300}><i className="ion-ios-book" /></div>
+                  <h6 className="text-center text-capitalize">Name of the book will be placed here</h6>
+                  {/* Type and Published date here */}
+                  <ul className="text-center list-inline">
+                    <li><i className="ion-ios-pricetag" />Type: Novel</li>
+                    <li><i className="ion-calendar" />Published On: 12 Jun 2015</li>
+                  </ul>
+                  {/* Some Info About Item */}
+                  <p className="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel. Vestibulum venenatis vestibulum elit ultricies.
+                  </p>
+                  <div className="row">
+                    {/* Item link here */}
+                    <a href="#0" className="btn waves-effect waves-light btn-primary custom-btn">Read Now</a>
+                  </div>
+                </div>
+              </div>
+              {/* ./3rd publication */}
+              {/* 4th publication */}
+              <div className="col col-md-6 col-sm-12 col-xs-12">
+                <div className="publication card text-center">
+                  {/* place Icon Here */}
+                  <div className="icon-div text-center" data-aos="zoom-in" data-aos-delay={300}><i className="ion-ios-paper" /></div>
+                  <h6 className="text-center text-capitalize">Subject of research will be placed here</h6>
+                  {/* Type and Published date here */}
+                  <ul className="text-center list-inline">
+                    <li><i className="ion-ios-pricetag" />Type: Research</li>
+                    <li><i className="ion-calendar" />Published On: 12 Jun 2015</li>
+                  </ul>
+                  {/* Some Info About Item */}
+                  <p className="text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel. Vestibulum venenatis vestibulum elit ultricies.
+                  </p>
+                  <div className="row">
+                    {/* Item link here */}
+                    <a href="#0" className="btn waves-effect waves-light btn-primary custom-btn">Read Now</a>
+                  </div>
+                </div>
+              </div>
+              {/* ./4th publication */}
+            </div>
+          </div>
+        </section>
+        {/*==========================================
+                   BLOG
+===========================================*/}
+        <section id="blog" className="section">
+          <h4 className="text-uppercase text-center">From Blog</h4>
+          <div className="container">
+            <div className="row">
+              {/* 1st blog post */}
+              <div className="col col-md-4 col-sm-12 col-xs-12">
+                <div className="card blog">
+                  {/* Blog image here */}
+                  <img className="img-responsive" src="images/blog/blog1.jpg" />
+                  <div className="blog-content">
+                    {/* Edit title and info here */}
+                    <div className="blog-title">
+                      <h6 className="text-capitalize">Blog title will be placed here</h6>
+                      <ul>
+                        <li><i className="ion-calendar" />28 July</li>
+                        <li><i className="ion-heart" />87</li>
+                        <li><i className="ion-android-share-alt" />26</li>
+                      </ul>
+                      {/* Add link of full post */}
+                      <a href="post.html" target="_blank" className="btn-floating waves-effect waves-light btn-large more-btn custom-btn" data-aos="zoom-in" data-aos-delay={200}>
+                        <i className="ion-android-more-horizontal" /></a>
+                    </div>
+                    {/* some line of post */}
+                    <p className="text-left">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra vestibulum elit ultricies.......
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {/* ./1st blog post */}
+              {/* 2nd blog post */}
+              <div className="col col-md-4 col-sm-12 col-xs-12">
+                <div className="card blog">
+                  {/* Blog image here */}
+                  <img className="img-responsive" src="images/blog/blog2.jpg" />
+                  <div className="blog-content">
+                    {/* Edit title and info here */}
+                    <div className="blog-title">
+                      <h6 className="text-capitalize">Blog title will be placed here</h6>
+                      <ul>
+                        <li><i className="ion-calendar" />12 July</li>
+                        <li><i className="ion-heart" />53</li>
+                        <li><i className="ion-android-share-alt" />73</li>
+                      </ul>
+                      {/* Add link of full post */}
+                      <a href="post.html" target="_blank" className="btn-floating waves-effect waves-light btn-large more-btn custom-btn" data-aos="zoom-in" data-aos-delay={200}>
+                        <i className="ion-android-more-horizontal" /></a>
+                    </div>
+                    {/* some line of post */}
+                    <p className="text-left">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra vestibulum elit ultricies.......
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {/* ./2nd blog post */}
+              {/* 3rd blog post */}
+              <div className="col col-md-4 col-sm-12 col-xs-12">
+                <div className="card blog">
+                  {/* Blog image here */}
+                  <img className="img-responsive" src="images/blog/blog3.jpg" />
+                  <div className="blog-content">
+                    {/* Edit title and info here */}
+                    <div className="blog-title">
+                      <h6 className="text-capitalize">Blog title will be placed here</h6>
+                      <ul>
+                        <li><i className="ion-calendar" />20 Jun</li>
+                        <li><i className="ion-heart" />36</li>
+                        <li><i className="ion-android-share-alt" />37</li>
+                      </ul>
+                      {/* Add link of full post */}
+                      <a href="post.html" target="_blank" className="btn-floating waves-effect waves-light btn-large more-btn custom-btn" data-aos="zoom-in" data-aos-delay={200}>
+                        <i className="ion-android-more-horizontal" /></a>
+                    </div>
+                    {/* some line of post */}
+                    <p className="text-left">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra vestibulum elit ultricies.......
+                    </p>
+                  </div>
+                </div>
+              </div>
+              {/* ./3rd blog post */}
+            </div>
+            <div className="row text-center">
+              <div className="col col-xs-12 col-sm-12 col-md-12 text-center">
+                <a href="blog.html" target="_blank" className="text-uppercase visit-blog btn btn-large custom-btn waves-effect waves-light" data-aos="zoom-in" data-aos-delay={100}>Visit MY BLOG</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*==========================================
+                   CLIENTS
+===========================================*/}
+        <section id="clients" className="section">
+          <h4 className="text-uppercase text-center">Happy Clients</h4>
+          <div className="container">
+            <div className="row">
+              <div id="client-slider" className="swiper-container">
+                <div className="swiper-wrapper">
+                  {/* 1st Reference from Client */}
+                  <div className="col col-md-12 col-sm-12 col-xs-12 swiper-slide">
+                    <div className="card clients-ref">
+                      {/* Client Photo */}
+                      <div className="client-photo center-block">
+                        <img className="center-block" src="images/client/face-1.png" />
+                      </div>
+                      {/* Client Testimonial */}
+                      <blockquote className="text-center">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies a. Vestibulum
+                        at mollis ex, ac consectetur massa. Donec nunc, laoreet a nibh et, semper tincidunt nunc. Donec ac posuere tellus."
+                        <cite>— Mr. John Mark, CEO </cite>
+                      </blockquote>
+                    </div>
+                  </div>
+                  {/* ./1st Reference from Client */}
+                  {/* 2nd Reference from Client */}
+                  <div className="col col-md-12 col-sm-12 col-xs-12 swiper-slide">
+                    <div className="card clients-ref">
+                      {/* Client Photo */}
+                      <div className="client-photo center-block">
+                        <img className="center-block" src="images/client/face-2.png" />
+                      </div>
+                      {/* Client Testimonial */}
+                      <blockquote className="text-center">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies a. Vestibulum
+                        at mollis ex, ac consectetur massa. Donec nunc, laoreet a nibh et, semper tincidunt nunc. Donec ac posuere tellus."
+                        <cite>— Mrs. July Sara, CEO </cite>
+                      </blockquote>
+                    </div>
+                  </div>
+                  {/* ./2nd Reference from Client */}
+                  {/* 3rd Reference from Client */}
+                  <div className="col col-md-12 col-sm-12 col-xs-12 swiper-slide">
+                    <div className="card clients-ref">
+                      {/* Client Photo */}
+                      <div className="client-photo center-block">
+                        <img className="center-block" src="images/client/face-3.png" />
+                      </div>
+                      {/* Client Testimonial */}
+                      <blockquote className="text-center">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies a. Vestibulum
+                        at mollis ex, ac consectetur massa. Donec nunc, laoreet a nibh et, semper tincidunt nunc. Donec ac posuere tellus."
+                        <cite>— Mr. Robart Hug, CEO </cite>
+                      </blockquote>
+                    </div>
+                  </div>
+                  {/* ./3rd Reference from Client */}
+                  {/* 4th Reference from Client */}
+                  <div className="col col-md-12 col-sm-12 col-xs-12 swiper-slide">
+                    <div className="card clients-ref">
+                      {/* Client Photo */}
+                      <div className="client-photo center-block">
+                        <img className="center-block" src="images/client/face-4.png" />
+                      </div>
+                      {/* Client Testimonial */}
+                      <blockquote className="text-center">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies a. Vestibulum
+                        at mollis ex, ac consectetur massa. Donec nunc, laoreet a nibh et, semper tincidunt nunc. Donec ac posuere tellus."
+                        <cite>— Mrs. Angela D-Suza, CEO </cite>
+                      </blockquote>
+                    </div>
+                  </div>
+                  {/* ./4th Reference from Client */}
+                </div>
+                {/* If we need pagination */}
+                <div className="swiper-pagination" />
+              </div>
+            </div>
+            <div className="row">
+              <h5 className="text-uppercase text-center">Also Worked for</h5>
+              {/* Company Logo with Website LInk */}
+              <ul className="text-center">
+                <li data-aos="fade-up" data-aos-delay={300}><a href="#0">
+                    <img className="img-responsive media-middle" src="images/client/logo1.png" alt="" />
+                  </a></li>
+                <li data-aos="fade-up" data-aos-delay={450}><a href="#0">
+                    <img className="img-responsive media-middle" src="images/client/logo2.png" alt="" />
+                  </a></li>
+                <li data-aos="fade-up" data-aos-delay={600}><a href="#0">
+                    <img className="img-responsive media-middle" src="images/client/logo3.png" alt="" />
+                  </a></li>
+                <li data-aos="fade-up" data-aos-delay={750}><a href="#0">
+                    <img className="img-responsive media-middle" src="images/client/logo4.png" alt="" />
+                  </a></li>
+                <li data-aos="fade-up" data-aos-delay={750}><a href="#0">
+                    <img className="img-responsive media-middle" src="images/client/logo5.png" alt="" />
+                  </a></li>
+              </ul>
+              {/* ./Company Logo with Website LInk */}
+            </div>
+          </div>
+        </section>
+        {/*==========================================
+               PRICING TABLE
+===========================================*/}
+        <section id="pricing" className="section">
+          <h4 className="text-uppercase text-center">Pricing</h4>
+          <div className="container">
+            <div className="row">
+              <ul className="text-center period-btn">
+                <li id="month-btn" className="active-cat"><a>Monthly</a></li>
+                <li id="year-btn"><a>Yearly</a></li>
+              </ul>
+              {/* Monthly Pricing */}
+              <div id="month" className="col col-md-12 col-sm-12 col-xs-12 period-type">
+                <div className="row">
+                  {/* Basic */}
+                  <div className="col col-md-3 col-sm-6 col-xs-12">
+                    <div className="card pricing-table" data-aos="fade-up" data-aos-delay={300}>
+                      {/* Table Name */}
+                      <h3 className="text-center">Basic</h3>
+                      <h4 className="text-center">
+                        <span className="dollar">$</span>
+                        {/* Enter Your Amount Here */}
+                        <span className="amount">25</span>
+                        <span className="period">/mo</span>
+                      </h4>
+                      {/* Features */}
+                      <ul className="feature-list text-center">
+                        <li>500 Items</li>
+                        <li>25 Free Demo /week</li>
+                        <li>Unlimited Storage</li>
+                        <li>24/7 Support</li>
+                      </ul>
+                      {/* ./Features */}
+                      <div className="row">
+                        <div className="col col-xs-12 col-sm-12 col-md-12 text-center">
+                          <a href="#0" className="btn waves-effect waves-light custom-btn">Buy Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ./Basic */}
+                  {/* Silver */}
+                  <div className="col col-md-3 col-sm-6 col-xs-12">
+                    <div className="card pricing-table" data-aos="fade-up" data-aos-delay={450}>
+                      {/* Table Name */}
+                      <h3 className="text-center">Silver</h3>
+                      <h4 className="text-center">
+                        <span className="dollar">$</span>
+                        {/* Enter Your Amount Here */}
+                        <span className="amount">50</span>
+                        <span className="period">/mo</span>
+                      </h4>
+                      {/* Features */}
+                      <ul className="feature-list text-center">
+                        <li>500 Items</li>
+                        <li>25 Free Demo /week</li>
+                        <li>Unlimited Storage</li>
+                        <li>24/7 Support</li>
+                      </ul>
+                      {/* ./Features */}
+                      <div className="row">
+                        <div className="col col-xs-12 col-sm-12 col-md-12 text-center">
+                          <a href="#0" className="btn waves-effect waves-light custom-btn">Buy Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ./Silver */}
+                  {/* Gold */}
+                  <div className="col col-md-3 col-sm-6 col-xs-12">
+                    <div className="card pricing-table" data-aos="fade-up" data-aos-delay={600}>
+                      {/* Table Name */}
+                      <h3 className="text-center">Gold</h3>
+                      <h4 className="text-center">
+                        <span className="dollar">$</span>
+                        {/* Enter Your Amount Here */}
+                        <span className="amount">75</span>
+                        <span className="period">/mo</span>
+                      </h4>
+                      {/* Features */}
+                      <ul className="feature-list text-center">
+                        <li>500 Items</li>
+                        <li>25 Free Demo /week</li>
+                        <li>Unlimited Storage</li>
+                        <li>24/7 Support</li>
+                      </ul>
+                      {/* ./Features */}
+                      <div className="row">
+                        <div className="col col-xs-12 col-sm-12 col-md-12 text-center">
+                          <a href="#0" className="btn waves-effect waves-light custom-btn">Buy Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ./Gold */}
+                  {/* Platinum */}
+                  <div className="col col-md-3 col-sm-6 col-xs-12">
+                    <div className="card pricing-table" data-aos="fade-up" data-aos-delay={750}>
+                      {/* Table Name */}
+                      <h3 className="text-center">Platinum</h3>
+                      <h4 className="text-center">
+                        <span className="dollar">$</span>
+                        {/* Enter Your Amount Here */}
+                        <span className="amount">100</span>
+                        <span className="period">/mo</span>
+                      </h4>
+                      {/* Features */}
+                      <ul className="feature-list text-center">
+                        <li>500 Items</li>
+                        <li>25 Free Demo /week</li>
+                        <li>Unlimited Storage</li>
+                        <li>24/7 Support</li>
+                      </ul>
+                      {/* ./Features */}
+                      <div className="row">
+                        <div className="col col-xs-12 col-sm-12 col-md-12 text-center">
+                          <a href="#0" className="btn waves-effect waves-light custom-btn">Buy Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ./Platinum */}
+                </div>
+              </div>
+              {/* ./Monthly Pricing */}
+              {/* Yearly Pricing */}
+              <div id="year" className="col col-md-12 col-sm-12 col-xs-12 period-type">
+                <div className="row">
+                  {/* Basic */}
+                  <div className="col col-md-3 col-sm-6 col-xs-12">
+                    <div className="card pricing-table">
+                      {/* Table Name */}
+                      <h3 className="text-center">Basic</h3>
+                      <h4 className="text-center">
+                        <span className="dollar">$</span>
+                        {/* Enter Your Amount Here */}
+                        <span className="amount">240</span>
+                        <span className="period">/yr</span>
+                      </h4>
+                      {/* Features */}
+                      <ul className="feature-list text-center">
+                        <li>500 Items</li>
+                        <li>25 Free Demo /week</li>
+                        <li>Unlimited Storage</li>
+                        <li>24/7 Support</li>
+                      </ul>
+                      {/* ./Features */}
+                      <div className="row">
+                        <div className="col col-xs-12 col-sm-12 col-md-12 text-center">
+                          <a href="#0" className="btn waves-effect waves-light custom-btn">Buy Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ./Basic */}
+                  {/* Silver */}
+                  <div className="col col-md-3 col-sm-6 col-xs-12">
+                    <div className="card pricing-table">
+                      {/* Table Name */}
+                      <h3 className="text-center">Silver</h3>
+                      <h4 className="text-center">
+                        <span className="dollar">$</span>
+                        {/* Enter Your Amount Here */}
+                        <span className="amount">480</span>
+                        <span className="period">/yr</span>
+                      </h4>
+                      {/* Features */}
+                      <ul className="feature-list text-center">
+                        <li>500 Items</li>
+                        <li>25 Free Demo /week</li>
+                        <li>Unlimited Storage</li>
+                        <li>24/7 Support</li>
+                      </ul>
+                      {/* ./Features */}
+                      <div className="row">
+                        <div className="col col-xs-12 col-sm-12 col-md-12 text-center">
+                          <a href="#0" className="btn waves-effect waves-light custom-btn">Buy Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ./Silver */}
+                  {/* Gold */}
+                  <div className="col col-md-3 col-sm-6 col-xs-12">
+                    <div className="card pricing-table">
+                      {/* Table Name */}
+                      <h3 className="text-center">Gold</h3>
+                      <h4 className="text-center">
+                        <span className="dollar">$</span>
+                        {/* Enter Your Amount Here */}
+                        <span className="amount">720</span>
+                        <span className="period">/yr</span>
+                      </h4>
+                      {/* Features */}
+                      <ul className="feature-list text-center">
+                        <li>500 Items</li>
+                        <li>25 Free Demo /week</li>
+                        <li>Unlimited Storage</li>
+                        <li>24/7 Support</li>
+                      </ul>
+                      {/* ./Features */}
+                      <div className="row">
+                        <div className="col col-xs-12 col-sm-12 col-md-12 text-center">
+                          <a href="#0" className="btn waves-effect waves-light custom-btn">Buy Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ./Gold */}
+                  {/* Platinum */}
+                  <div className="col col-md-3 col-sm-6 col-xs-12">
+                    <div className="card pricing-table">
+                      {/* Table Name */}
+                      <h3 className="text-center">Platinum</h3>
+                      <h4 className="text-center">
+                        <span className="dollar">$</span>
+                        {/* Enter Your Amount Here */}
+                        <span className="amount">960</span>
+                        <span className="period">/yr</span>
+                      </h4>
+                      {/* Features */}
+                      <ul className="feature-list text-center">
+                        <li>500 Items</li>
+                        <li>25 Free Demo /week</li>
+                        <li>Unlimited Storage</li>
+                        <li>24/7 Support</li>
+                      </ul>
+                      {/* ./Features */}
+                      <div className="row">
+                        <div className="col col-xs-12 col-sm-12 col-md-12 text-center">
+                          <a href="#0" className="btn waves-effect waves-light custom-btn">Buy Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ./Platinum */}
+                </div>
+              </div>
+              {/* Yearly Pricing */}
+            </div>
+          </div>
+        </section>
+        {/*==========================================
+                   INTEREST
+===========================================*/}
+        <section id="interest" className="section">
+          <h4 className="text-uppercase text-center">Interest</h4>
+          <div className="container">
+            <div className="row">
+              <div className="col col-md-12 col-sm-12 col-xs-12">
+                <div className="card interest">
+                  <div className="row">
+                    <div className="col col-md-12 col-sm-12 col-xs-12">
+                      {/* Some brief about your interest */}
+                      <p className="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetrami. Lorem ipsum dolor sit amet.
+                      </p>
+                    </div>
+                    {/* Interest Topic Icon and Name */}
+                    <ul className="col-md-12 col-sm-12 col-xs-12 text-center list-inline">
+                      <li className="interest-topic">
+                        <i className="ion-ios-film" />
+                        <span>Documentary</span>
+                      </li>
+                      <li className="interest-topic">
+                        <i className="ion-compose" />
+                        <span>Blogging</span>
+                      </li>
+                      <li className="interest-topic">
+                        <i className="ion-headphone" />
+                        <span>Music</span>
+                      </li>
+                      <li className="interest-topic">
+                        <i className="ion-ios-football" />
+                        <span>Football</span>
+                      </li>
+                      <li className="interest-topic">
+                        <i className="ion-plane" />
+                        <span>Traveling</span>
+                      </li>
+                      <li className="interest-topic">
+                        <i className="ion-ios-game-controller-b" />
+                        <span>Gaming</span>
+                      </li>
+                      <li className="interest-topic">
+                        <i className="ion-ios-camera" />
+                        <span>Photography</span>
+                      </li>
+                    </ul>
+                    {/* ./Interest Topic Icon and Name */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*==========================================
+                    CONTACT
+===========================================*/}
+        <section id="contact" className="section">
+          <h4 className="text-uppercase text-center">Contact</h4>
+          <div className="container">
+            <div className="row">
+              {/* Contact Info */}
+              <div className="col col-md-5 col-sm-6 col-xs-12">
+                <div className="info card">
+                  {/* Apply your own info here */}
+                  <ul className="text-center center-block" data-aos="fade" data-aos-delay={200} data-aos-offset={0}>
+                    <li>
+                      <i className="ion-android-call center-block" />
+                      <span>+880 - 12345 - 67890</span>
+                    </li>
+                    <li>
+                      <i className="ion-ios-printer center-block" />
+                      <span>+880 - 12345 - 67890</span>
+                    </li>
+                    <li>
+                      <i className="ion-email center-block" />
+                      <span>emailid@domain.com</span>
+                    </li>
+                    <li>
+                      <i className="ion-earth center-block" />
+                      <span>websiteaddresslink.com</span>
+                    </li>
+                    <li>
+                      <i className="ion-ios-location center-block" />
+                      <span>25/A New Eskaton Road, Maghbazar</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* ./Contact Info */}
+              {/* Contact Form */}
+              <div className="col col-md-7 col-sm-6 col-xs-12">
+                <div className="contact card">
+                  <form id="contact-form" name="contact-form" role="form">
+                    <div className="input-field">
+                      <input id="name" name="name" type="text" className="validate" required />
+                      <label htmlFor="name">Name</label>
+                    </div>
+                    <div className="input-field">
+                      <input id="subject" name="subject" type="text" className="validate" required />
+                      <label htmlFor="subject">Subject</label>
+                    </div>
+                    <div className="input-field">
+                      <input id="email" name="email" type="email" className="validate" required />
+                      <label htmlFor="email">Email</label>
+                    </div>
+                    <div className="input-field">
+                      <textarea id="textarea" name="message" className="materialize-textarea" required defaultValue={""} />
+                      <label htmlFor="textarea">Massage</label>
+                    </div>
+                    <div className="row">
+                      <div className="col col-md-12 col-sm-12 col-xs-12 text-center">
+                        <button type="submit" id="submit" name="submit-data" value="Submit" className="btn waves-effect waves-light btn-primary custom-btn">
+                          {/* Button value here */}
+                          <i className="ion-ios-paperplane" />Send</button>
+                      </div>
+                      {/* Message Sent and Error info */}
+                      <div id="snackbar">Your Message is sent</div>
+                      <div id="fail-snackbar">Something is going wrong, Please try again</div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              {/* ./Contact Form */}
+            </div>
+            {/* Location MAP */}
+            <div className="row">
+              <div className="col col-md-12 col-sm-12 col-xs-12">
+                <div id="google-map" data-aos="zoom-in" data-aos-delay={0} data-aos-offset={0}>
+                  <div id="map-container" />
+                  <div id="cd-zoom-in" className="custom-btn"><i className="material-icons text-center">add</i></div>
+                  <div id="cd-zoom-out" className="custom-btn"><i className="material-icons text-center">remove</i></div>
+                  {/* Your address here */}
+                  <address className="text-center">25/A New Eskaton Road, Maghbazar, Dhaka 1000, Bangladesh</address>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*==========================================
+                    FOOTER
+===========================================*/}
+        <footer>
+          <div className="container">
+            <p className="text-center">
+              © DECENT Material CV | Resume 2016. Designed by
+              <a href="https://themeforest.net/user/ravelweb" target="_blank">
+                <strong>Mohammad Asif | Ravelweb</strong>
+              </a>
+            </p>
           </div>
         </footer>
-        {/* loader */}
-        <div id="ftco-loader" className="show fullscreen"><svg className="circular" width="48px" height="48px"><circle className="path-bg" cx={24} cy={24} r={22} fill="none" strokeWidth={4} stroke="#eeeeee" /><circle className="path" cx={24} cy={24} r={22} fill="none" strokeWidth={4} strokeMiterlimit={10} stroke="#F96D00" /></svg></div>
-            </div>
+        {/* Back To Top Button */}
+        <a href="#header" id="btp" className="back-to-top btn-floating waves-effect waves-light btn-large custom-btn">
+          <i className="ion-ios-arrow-up" />
+        </a>
+        {/*==========================================
+                COLOR SWITCHER
+===========================================*/}
+        <div className="switcher">
+          <div className="switcher-btn custom-btn waves-effect waves-light text-center">
+            <i className="ion-android-color-palette text-center" />
+          </div>
+          <div className="back custom-btn waves-effect waves-light text-center">
+            <i className="ion-ios-arrow-right text-center" />
+          </div>
+          <div className="colors">
+            <p className="text-center text-capitalize">Choose Your Favourite Color</p>
+            <ul>
+              <li id="color-red" className="color-btn" />
+              <li id="color-pink" className="color-btn" />
+              <li id="color-purple" className="color-btn" />
+              <li id="color-deep-purple" className="color-btn" />
+              <li id="color-indigo" className="color-btn" />
+              <li id="color-blue" className="color-btn" />
+              <li id="color-teal" className="color-btn" />
+              <li id="color-green" className="color-btn" />
+              <li id="color-light-green" className="color-btn" />
+              <li id="color-amber" className="color-btn" />
+              <li id="color-orange" className="color-btn" />
+              <li id="color-deep-orange" className="color-btn" />
+              <li id="color-brown" className="color-btn" />
+              <li id="color-blue-gray" className="color-btn" />
+              <li id="color-gray" className="color-btn" />
+            </ul>
+          </div>
+        </div>
+        </div>
         )
     }
 }
