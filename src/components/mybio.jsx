@@ -1,7 +1,53 @@
 import React, { Component } from 'react'
-
+import $ from 'jquery'
+import WaterWave from 'react-water-wave';
+let image=require('./hbg.jpg') 
 export default class MyBio extends Component {
+  state={
+    transPWidth:false,
+  }
+  
+  componentDidMount(){
+    console.log("xlsxmaslxmsalxmasxmsax",image)
+    
+    // $('.shadow').ripples({
+    //   resolution: 512,
+    //   dropRadius: 20,
+    //   perturbance: 0.04,
+    // });
+    // $(window.document).ready(function() {
+    //   $('.image').ripples('show');
+    //   });
+//       window.onscroll = ()=>{
+//         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+
+//           this.setState({transPWidth:true})
+//         }else{
+//           this.setState({transPWidth:false})
+
+//         }
+//         if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+//           $(window).on("scroll", function() {
+//             $(".w30").hide();
+
+//         });
+//   } else {
+//     $(window).on("scroll", function() {
+//       var s = 180 - Math.min(180, $(document).scrollTop());
+//       $(".w30").show().animate(1000);
+//       $(".w30").width(s).height(s);
+    
+//   });
+//   }
+//  }
+}
+  
+
+    
+  
     render() {
+
+      console.log("state",this.state)
         return (
         <div>
             <div id="page-loader">
@@ -9,17 +55,13 @@ export default class MyBio extends Component {
             <div className="spinner" />
           </div>
           <div className="text-div text-center animated zoomIn">
-            <p className="text-uppercase">INTRODUCING</p>
-            {/* Name Only */}
-            <h6 className="text-uppercase">JOHN ROBERT SMITH</h6>
+            <p className="text-uppercase">Wecome</p>
+            {/* <h6 className="text-uppercase"></h6> */}
           </div>
         </div>
-        {/*==========================================
-                 HEADER
-===========================================*/}
+       
         <div id="header" className="shadow">
-          {/* Navigation */}
-          <nav>
+        <nav>
             <div className="nav nav-wrapper navbar-fixed-top">
               <div className="container-fluid">
                 {/* Menu Option */}
@@ -40,17 +82,15 @@ export default class MyBio extends Component {
                 </ul>
                 <a href="#0" data-activates="nav-mobile" id="nav-btn" className="button-collapse nav-icon">
                   <i className="ion-navicon" /></a>
-                {/* Side Nav */}
                 <div id="side-nav">
                   <div id="nav-header">
-                    <div id="nav-profile" className="center-block">
-                      {/* Profile Picture [Square] */}
-                      <img src="images/profile-pic.png" />
+                    
+                    <div id="nav-profile"  className="center-block zoomOut">
+                      <img   src="images/profile-pic.png" />
                     </div>
                     <h6 className="text-center text-capitalize">John Robert Smith</h6>
                   </div>
                   <div id="nav-link-wrapper">
-                    {/* Side Menu Option */}
                     <ul>
                       <li><a className="nav-link" href="#header">About</a></li>
                       <li><a className="nav-link" href="#experience">Experience</a></li>
@@ -68,31 +108,39 @@ export default class MyBio extends Component {
                     </ul>
                   </div>
                 </div>
-                {/* ./Side Nav */}
-                {/* Side Nav Mask */}
                 <div id="side-nav-mask" />
               </div>
             </div>
           </nav>
-          {/* Name and Status */}
+          </div>
+        <WaterWave
+  imageUrl={image}
+    strength={500}  imageUrl={""}
+  >
+      {() => (
+         <div id="header" className="shadow">
+          {/* Navigation */}
+        
           <div id="intro" className="container">
-            <h1 className="text-center text-capitalize">John Robert Smith</h1>
-            <h4 className="text-center text-capitalize">Web Designer &amp; Developer, UX/UI Expert</h4>
+            <h1 className="text-center text-capitalize">K Sriharsha</h1>
+            <h4 className="text-center text-capitalize">Web Designer &amp; MERN Stack Developer</h4>
           </div>
         </div>
-        {/*==========================================
-                   ABOUT
-===========================================*/}
+                       
+                     )}
+    
+  </WaterWave>
+      
         <section id="about" className="section">
           <div className="container">
             <div className="row">
               <div className="col col-md-12">
-                {/* Profile Picture [Square] */}
-                <div id="profile" className="center-block">
-                  <img src="images/profile-pic.png" />
+           
+                <div id="profile" className="  center-block">
+                  <img  src="images/profile-pic.png" />
                 </div>
                 {/* Social Links */}
-                <div id="intro-div" className="card content-wrapper">
+                <div id="intro-div" className="card content-wrapper abtcard">
                   <ul className="text-center list-inline">
                     <li><a href="#0" target="_blank"><i className="ion-social-facebook" /></a></li>
                     <li><a href="#0" target="_blank"><i className="ion-social-twitter" /></a></li>
@@ -118,9 +166,6 @@ export default class MyBio extends Component {
             </div>
           </div>
         </section>
-        {/*==========================================
-                   EXPERIENCE
-===========================================*/}
         <section id="experience" className="section">
           <h4 className="text-uppercase text-center">Experience</h4>
           <div className="container">
@@ -200,9 +245,6 @@ export default class MyBio extends Component {
             </div>
           </div>
         </section>
-        {/*==========================================
-                   SKILLS
-===========================================*/}
         <section id="skills" className="section">
           <h4 className="text-uppercase text-center">Skills</h4>
           <div className="container">
@@ -263,14 +305,11 @@ export default class MyBio extends Component {
                   </div>
                 </div>
               </div>
-              {/* Personal Skills */}
               <div className="col col-md-4 col-sm-4 col-xs-12">
                 <div className="card content-wrapper skill-wrapper">
                   <h5 className="text-center skill-title">Personal</h5>
                   <div className="skill-progress-div">
-                    {/* Add Skill */}
                     <p>Committed<span>100%</span></p>
-                    {/* Edit Value Here */}
                     <div className="progress skill-progress" data-percent="100%">
                       <div className="determinate skill-determinate">
                         <i className="skill-determinate-circle fa fa-circle" data-aos="zoom-in" data-aos-delay={300} data-aos-offset={0} />
@@ -378,9 +417,6 @@ export default class MyBio extends Component {
             </div>
           </div>
         </section>
-        {/*==========================================
-                   EDUCATION
-===========================================*/}
         <section id="education" className="section">
           <h4 className="text-uppercase text-center">Education</h4>
           <div className="container">
@@ -464,9 +500,7 @@ export default class MyBio extends Component {
             </div>
           </div>
         </section>
-        {/*==========================================
-                   SERVICES
-===========================================*/}
+   
         <section id="services" className="section">
           <h4 className="text-uppercase text-center">Services</h4>
           <div className="container">
@@ -552,9 +586,7 @@ export default class MyBio extends Component {
             </ul>
           </div>
         </section>
-        {/*==========================================
-                   PORTFOLIOS
-===========================================*/}
+
         <section id="portfolios" className="section">
           <h4 className="text-uppercase text-center">Portfolios</h4>
           <div className="container">
@@ -1825,7 +1857,7 @@ export default class MyBio extends Component {
           <div className="back custom-btn waves-effect waves-light text-center">
             <i className="ion-ios-arrow-right text-center" />
           </div>
-          <div className="colors">
+          {/* <div className="colors">
             <p className="text-center text-capitalize">Choose Your Favourite Color</p>
             <ul>
               <li id="color-red" className="color-btn" />
@@ -1844,7 +1876,7 @@ export default class MyBio extends Component {
               <li id="color-blue-gray" className="color-btn" />
               <li id="color-gray" className="color-btn" />
             </ul>
-          </div>
+          </div> */}
         </div>
         </div>
         )

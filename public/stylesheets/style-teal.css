@@ -452,7 +452,10 @@ a:focus {
     height: auto;
     background-color: transparent;
 }
-
+.w30{
+    width: 30px !important;
+    transition: 2.2s;
+}
 #about #profile {
     animation-delay: 500ms;
     animation-duration: 1000ms;

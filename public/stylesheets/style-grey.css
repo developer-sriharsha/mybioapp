@@ -278,13 +278,51 @@ a:focus {
         width: 1100px;
     }
 }
+body {
+    /* position: absolute;
+    top: 10px;
+    left: 20px;
+    bottom: 10px;
+    right: 0;
+    padding: 30px;  */
+    overflow-y: scroll;
+    /* overflow-x: hidden; */
+}
 
+/* div { height: 1000px; } */
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #000000;
+}
+
+.jquery-ripples{
+    background-image: url("../images/hbg.jpg");
+    background-size: cover;
+    background-position-y: -299px;
+    box-shadow: -3px 12px 20px 0px;
+
+}
 #header {
-    position: relative;
+    /* position: relative;
     display: block;
     width: 100%;
     height: auto;
-    background-color: #4f4f4f;
+    background-image: url("../images/hbg.jpg");
+    background-size: cover;
+    background-position-y: -299px; */
 }
 
 #header nav {
@@ -375,6 +413,10 @@ a:focus {
     font-weight: 300;
     line-height: 25px;
 }
+.abtcard{
+    border-radius: 20px;
+    box-shadow: -2px 4px 15px 1px;
+}
 
 #header nav #side-nav #nav-link-wrapper {
     width: 100%;
@@ -452,7 +494,58 @@ a:focus {
     height: auto;
     background-color: transparent;
 }
-
+.w30{
+   
+    /* width: calc(9.333% - 46px);
+    height: 53px; */
+  
+   /* will-change: transform; 
+   opacity: 1;
+   opacity: calc(var(--visible-y) * var(--visible-y));
+   transform: scale(calc(0.5 + calc(var(--visible-y) * 0.5))); */
+    transition: 1.0s;
+    animation-delay: 500ms;
+    animation-duration: 1000ms;
+    position: fixed;
+    /* width: 190px;
+    height: 190px; */
+    top: 20%;
+    left: 50%;
+    margin-left: -90px;
+    z-index: 1;
+    display: block;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+#w30 {
+    width: calc(9.333% - 46px);
+    height: 53px;
+   
+    will-change: transform; 
+    opacity: 1;
+    opacity: calc(var(--visible-y) * var(--visible-y));
+    transform: scale(calc(0.5 + calc(var(--visible-y) * 0.5)));
+   
+	transform: translateX(-50%);
+    transition: 1.0s;
+    animation-delay: 500ms;
+    animation-duration: 1000ms;
+    position: absolute;
+    /* width: 50px;
+    height: 50px; */
+    top: -97px;
+    left: 50%;
+    margin-left: -90px;
+    z-index: 1;
+    display: block;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+ 
+}
 #about #profile {
     animation-delay: 500ms;
     animation-duration: 1000ms;
