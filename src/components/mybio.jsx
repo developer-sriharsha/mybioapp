@@ -14,9 +14,6 @@ export default class MyBio extends Component {
             <h6 className="text-uppercase">JOHN ROBERT SMITH</h6>
           </div>
         </div>
-        {/*==========================================
-                 HEADER
-===========================================*/}
         <div id="header" className="shadow">
           {/* Navigation */}
           <nav>
@@ -118,9 +115,7 @@ export default class MyBio extends Component {
             </div>
           </div>
         </section>
-        {/*==========================================
-                   EXPERIENCE
-===========================================*/}
+
         <section id="experience" className="section">
           <h4 className="text-uppercase text-center">Experience</h4>
           <div className="container">
