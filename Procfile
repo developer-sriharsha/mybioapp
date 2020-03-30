@@ -1,1 +1,5 @@
-web:node index.js
+# create '/Procfile'
+web: npm start
+
+# test start
+$ foreman start
