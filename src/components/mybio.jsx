@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
 import $ from 'jquery'
 import WaterWave from 'react-water-wave';
+import Typer from './Typer';
 let image=require('./hbg.jpg') 
+
+
+
 export default class MyBio extends Component {
   state={
     transPWidth:false,
@@ -55,12 +59,13 @@ export default class MyBio extends Component {
             <div className="spinner" />
           </div>
           <div className="text-div text-center animated zoomIn">
-            <p className="text-uppercase">Wecome</p>
+            <p className="text-uppercase">Welcome</p>
             {/* <h6 className="text-uppercase"></h6> */}
           </div>
         </div>
        
-        <div id="header" className="shadow">
+       <div id="particle-canvas " className="bdbg">
+       <div id="header" className="shadow">
         <nav>
             <div className="nav nav-wrapper navbar-fixed-top">
               <div className="container-fluid">
@@ -88,7 +93,7 @@ export default class MyBio extends Component {
                     <div id="nav-profile"  className="center-block zoomOut">
                       <img   src="images/profile-pic.png" />
                     </div>
-                    <h6 className="text-center text-capitalize">John Robert Smith</h6>
+                    <h6 className="text-center text-capitalize">K Sriharsha</h6>
                   </div>
                   <div id="nav-link-wrapper">
                     <ul>
@@ -122,8 +127,10 @@ export default class MyBio extends Component {
           {/* Navigation */}
         
           <div id="intro" className="container">
-            <h1 className="text-center text-capitalize">K Sriharsha</h1>
-            <h4 className="text-center text-capitalize">Web Designer &amp; MERN Stack Developer</h4>
+            <h1 className="text-center text-capitalize abthfs" >K Sriharsha</h1>
+            <Typer heading={"Im a "} dataText = {
+                ["Web Developer", "Logo Designer", "UI/UX Designer", "Gamer"]
+            }/>
           </div>
         </div>
                        
@@ -604,8 +611,8 @@ export default class MyBio extends Component {
               <div className="filtr-container center-block">
                 {/* 1st Portfolio, Filter Option */}
                 <div className="col col-md-3 col-sm-6 col-xs-12 filtr-item" data-category="1, 5">
-                  <div className="portfolio card">
-                    <figure className="hover-effect">
+                  <div className="portfolio card pc">
+                    <figure className="hover-effect pfg">
                       {/* Portfolio Image */}
                       <img className="img-responsive" src="images/portfolios/p1.jpg" alt="" />
                       {/* open-modal ID */}
@@ -614,7 +621,7 @@ export default class MyBio extends Component {
                       </a>
                     </figure>
                     {/* Portfolio Title */}
-                    <h6 className="text-capitalize text-center">Portfolio Title Here</h6>
+                    <h6 className="text-capitalize text-center pt">Portfolio Title Here</h6>
                   </div>
                 </div>
                 {/* ./Portfolio */}
@@ -1090,7 +1097,7 @@ export default class MyBio extends Component {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> 
               </div>
               {/* ./4th Achievement */}
               {/* 5th Achievement */}
@@ -1263,7 +1270,7 @@ export default class MyBio extends Component {
             <div className="row">
               {/* 1st blog post */}
               <div className="col col-md-4 col-sm-12 col-xs-12">
-                <div className="card blog">
+                <div className="card blog rainbow">
                   {/* Blog image here */}
                   <img className="img-responsive" src="images/blog/blog1.jpg" />
                   <div className="blog-content">
@@ -1878,6 +1885,9 @@ export default class MyBio extends Component {
             </ul>
           </div> */}
         </div>
+        
+       </div>
+      
         </div>
         )
     }
