@@ -9,6 +9,8 @@
     "jquery": "^3.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2",
+    "react-particles-js": "^3.0.1",
     "react-scripts": "3.4.1",
     "react-water-wave": "^1.0.5"
   },

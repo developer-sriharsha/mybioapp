@@ -389,8 +389,8 @@ body {
 .jquery-ripples{
     background-image: url("../images/hbg.jpg") !important;
     background-size: cover;
-    background-position-y: -299px;
-    box-shadow: 0px -3px 20px 0px #ff002d;
+    background-position-y: -172px;
+    box-shadow: 0px -3px 20px 0px #000000;
 
 }
 #header {
@@ -493,7 +493,7 @@ body {
 }
 .abtcard{
     border-radius: 20px;
-    box-shadow: inset 0px 2px 9px 0px #ff002d;
+    box-shadow:0px 2px 9px 0px #3a3a3a;
 
 
 }
@@ -2528,3 +2528,14 @@ footer p {
 .switcher .colors #color-gray {
     background-color: #424242;
 }
+
+
+/*
+CSS Reset
+http://meyerweb.com/eric/tools/css/reset/
+*/
+
+
+
+
+

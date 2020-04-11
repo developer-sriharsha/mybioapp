@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import $ from 'jquery'
-import WaterWave from 'react-water-wave';
-import Typer from './Typer';
+import Header from './header'
+
+
 let image=require('./hbg.jpg') 
 
 
@@ -45,99 +45,25 @@ export default class MyBio extends Component {
 //   }
 //  }
 }
-  
-
-    
-  
-    render() {
-
+  render() {
       console.log("state",this.state)
         return (
-        <div>
+     
+       <div id="">
+         <div>
             <div id="page-loader">
           <div className="animated bounceInDown">
             <div className="spinner" />
           </div>
           <div className="text-div text-center animated zoomIn">
             <p className="text-uppercase">Welcome</p>
-            {/* <h6 className="text-uppercase"></h6> */}
           </div>
         </div>
-       
-       <div id="particle-canvas " className="bdbg">
-       <div id="header" className="shadow">
-        <nav>
-            <div className="nav nav-wrapper navbar-fixed-top">
-              <div className="container-fluid">
-                {/* Menu Option */}
-                <ul className="nav-justified hide-on-med-and-down">
-                  <li><a href="#header">About</a></li>
-                  <li><a href="#experience">Experience</a></li>
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#education">Education</a></li>
-                  <li><a href="#services">Services</a></li>
-                  <li><a href="#portfolios">Portfolios</a></li>
-                  <li><a href="#achievement">Achievement</a></li>
-                  <li><a href="#publications">Publications</a></li>
-                  <li><a href="#blog">Blog</a></li>
-                  <li><a href="#clients">Clients</a></li>
-                  <li><a href="#pricing">Pricing</a></li>
-                  <li><a href="#interest">Interest</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                </ul>
-                <a href="#0" data-activates="nav-mobile" id="nav-btn" className="button-collapse nav-icon">
-                  <i className="ion-navicon" /></a>
-                <div id="side-nav">
-                  <div id="nav-header">
-                    
-                    <div id="nav-profile"  className="center-block zoomOut">
-                      <img   src="images/profile-pic.png" />
-                    </div>
-                    <h6 className="text-center text-capitalize">K Sriharsha</h6>
-                  </div>
-                  <div id="nav-link-wrapper">
-                    <ul>
-                      <li><a className="nav-link" href="#header">About</a></li>
-                      <li><a className="nav-link" href="#experience">Experience</a></li>
-                      <li><a className="nav-link" href="#skills">Skills</a></li>
-                      <li><a className="nav-link" href="#education">Education</a></li>
-                      <li><a className="nav-link" href="#services">Services</a></li>
-                      <li><a className="nav-link" href="#portfolios">Portfolios</a></li>
-                      <li><a className="nav-link" href="#achievement">Achievement</a></li>
-                      <li><a className="nav-link" href="#publications">Publications</a></li>
-                      <li><a className="nav-link" href="#blog">Blog</a></li>
-                      <li><a className="nav-link" href="#clients">Clients</a></li>
-                      <li><a className="nav-link" href="#pricing">Pricing</a></li>
-                      <li><a className="nav-link" href="#interest">Interest</a></li>
-                      <li><a className="nav-link" href="#contact">Contact</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <div id="side-nav-mask" />
-              </div>
-            </div>
-          </nav>
-          </div>
-        <WaterWave
-  imageUrl={image}
-    strength={500}  imageUrl={""}
-  >
-      {() => (
-         <div id="header" className="shadow">
-          {/* Navigation */}
-        
-          <div id="intro" className="container">
-            <h1 className="text-center text-capitalize abthfs" >K Sriharsha</h1>
-            <Typer heading={"Im a "} dataText = {
-                ["Web Developer", "Logo Designer", "UI/UX Designer", "Gamer"]
-            }/>
-          </div>
-        </div>
-                       
-                     )}
-    
-  </WaterWave>
-      
+      {/* header */}
+
+            <Header/>
+
+      {/* section */}
         <section id="about" className="section">
           <div className="container">
             <div className="row">
@@ -1886,9 +1812,11 @@ export default class MyBio extends Component {
           </div> */}
         </div>
         
+         </div>
+    
        </div>
       
-        </div>
+      
         )
     }
 }
