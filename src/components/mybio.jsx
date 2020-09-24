@@ -624,7 +624,7 @@ Involve in systems design, development, testing, implementation, documentation a
                         <div className="content col-md-4 col-sm-12 col-xs-12">
                           <p><span>Status:&nbsp;</span> Ongoing</p>
                           <p><span>Duration:&nbsp;</span> Oct 2019 - present</p>
-                          <p><span>Team Size:&nbsp;</span> 4</p>
+                          <p><span>Team Size:&nbsp;</span> 3</p>
                           <p><span>Role Played::&nbsp;</span> Node js, React js Developer</p>
                           {/* <a href="#0" target="_blank" className="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a> */}
                           {/* Some Information Abut the Project */}
