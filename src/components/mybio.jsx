@@ -165,7 +165,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 </h5>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     React.js<span></span>
                   </p>
                   {/* Edit Value Here */}
@@ -179,12 +179,13 @@ Involve in systems design, development, testing, implementation, documentation a
                       />
                     </div>
                   </div>
+                  
                 </div>
 
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
-                    Redux<span></span>
+                  <p className="fz23">
+                    Redux
                   </p>
                   {/* Edit Value Here */}
                   <div className="progress skill-progress" >
@@ -200,8 +201,8 @@ Involve in systems design, development, testing, implementation, documentation a
                 </div>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
-                    Material UI,Semantic UI<span></span>
+                  <p className="fz23">
+                    Material UI,Semantic UI
                   </p>
                   {/* Edit Value Here */}
                   <div className="progress skill-progress" >
@@ -218,7 +219,7 @@ Involve in systems design, development, testing, implementation, documentation a
 
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     Socket-IO<span></span>
                   </p>
                   {/* Edit Value Here */}
@@ -235,7 +236,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 </div>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     React Native<span></span>
                   </p>
                   {/* Edit Value Here */}
@@ -260,7 +261,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 </h5>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     Node.js<span></span>
                   </p>
                   {/* Edit Value Here */}
@@ -277,7 +278,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 </div>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     Express(REST API's)<span></span>
                   </p>
                   {/* Edit Value Here */}
@@ -294,7 +295,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 </div>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     MySQL<span></span>
                   </p>
                   {/* Edit Value Here */}
@@ -311,7 +312,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 </div>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     MongoDB<span></span>
                   </p>
                   {/* Edit Value Here */}
@@ -329,7 +330,7 @@ Involve in systems design, development, testing, implementation, documentation a
 
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                   GRAPHQL<span></span>
                   </p>
                   {/* Edit Value Here */}
@@ -352,7 +353,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 <h5 className="text-center skill-title">Personal</h5>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     Committed<span></span>
                   </p>
                   {/* Edit Value Here */}
@@ -369,7 +370,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 </div>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     Punctual<span></span>
                   </p>
                   {/* Edit Value Here */}
@@ -386,7 +387,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 </div>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     Leadership
                   </p>
                   {/* Edit Value Here */}
@@ -403,7 +404,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 </div>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     Communicative
                   </p>
                   {/* Edit Value Here */}
@@ -420,7 +421,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 </div>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     Analytical Skill
                   </p>
                   {/* Edit Value Here */}
@@ -444,7 +445,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 <h5 className="text-center skill-title">Other Skills</h5>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23"> 
                    Adobe Photoshop cc<span></span>
                   </p>
                   {/* Edit Value Here */}
@@ -461,7 +462,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 </div>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                   Adobe Premier pro
                   </p>
                   {/* Edit Value Here */}
@@ -478,7 +479,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 </div>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     Linux OS / Windows 10
                   </p>
                   {/* Edit Value Here */}
@@ -495,7 +496,7 @@ Involve in systems design, development, testing, implementation, documentation a
                 </div>
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     VMWare / Oracle Box
                   </p>
                   {/* Edit Value Here */}
@@ -513,7 +514,7 @@ Involve in systems design, development, testing, implementation, documentation a
 
                 <div className="skill-progress-div">
                   {/* Add Skill */}
-                  <p>
+                  <p className="fz23">
                     Android SDK<span></span>
                   </p>
                   {/* Edit Value Here */}
@@ -615,24 +616,23 @@ Involve in systems design, development, testing, implementation, documentation a
                 <div id="modal3" className="modal" tabIndex={-1} role="dialog">
                   <div className="modal-dialog modal-lg">
                     <div className="modal-content animated zoomIn">
-                      <h3 className="text-capitalize text-left">Project title will be placed here</h3>
+                      <h3 className="text-capitalize text-left">Ayurway EMR</h3>
                       <div className="row">
                         {/* Modal Image */}
                         <img className="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p3.jpg" alt="" />
                         {/* Modal Content */}
                         <div className="content col-md-4 col-sm-12 col-xs-12">
-                          {/* Date, Category & Client Name of the Project */}
-                          <p><span>Date:&nbsp;</span> 5, July 2015</p>
-                          <p><span>Category:&nbsp;</span> System Development</p>
-                          <p><span>Client:&nbsp;</span> Mr. John Doe</p>
-                          {/* Live Demo Link */}
-                          <a href="#0" target="_blank" className="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
+                          <p><span>Status:&nbsp;</span> Ongoing</p>
+                          <p><span>Duration:&nbsp;</span> Oct 2019 - present</p>
+                          <p><span>Team Size:&nbsp;</span> 4</p>
+                          <p><span>Role Played::&nbsp;</span> Node js, React js Developer</p>
+                          {/* <a href="#0" target="_blank" className="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a> */}
                           {/* Some Information Abut the Project */}
-                          <p className="text-left">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum
-                            dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum
-                            elit ultricies. Lorem ipsum dolor sit amet.
-                          </p>
+                     
+                          <p class="text-left"><strong>Skills Used:</strong> React Js, Node Js, MySQL, Semantic UI, Bootstrap 4, Material UI. .</p>
+                          <p class="text-left"><strong>Description:</strong> Ayurway is a Health Care platform for Doctors and Patients in USA, Which includes Doctors 
+can prescribe various medicines based on patient symptoms and tracking patient details. </p>
+                        
                           <button data-dismiss="modal" className="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
                         </div>
                       </div>
@@ -658,25 +658,30 @@ Involve in systems design, development, testing, implementation, documentation a
                 <div id="modal8" className="modal" tabIndex={-1} role="dialog">
                   <div className="modal-dialog modal-lg">
                     <div className="modal-content animated zoomIn">
-                      <h3 className="text-capitalize text-left">Project title will be placed here</h3>
+                      <h3 className="text-capitalize text-left">Todo List System</h3>
                       <div className="row">
                         {/* Modal Image */}
                         <img className="img-responsive col-md-8 col-sm-12 col-xs-12" src="images/portfolios/p8.jpg" alt="" />
                         {/* Modal Content */}
                         <div className="content col-md-4 col-sm-12 col-xs-12">
-                          {/* Date, Category & Client Name of the Project */}
-                          <p><span>Date:&nbsp;</span> 5, July 2015</p>
-                          <p><span>Category:&nbsp;</span> System Development</p>
-                          <p><span>Client:&nbsp;</span> Mr. John Doe</p>
-                          {/* Live Demo Link */}
-                          <a href="#0" target="_blank" className="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
+                        <p><span>Status:&nbsp;</span> Completed</p>
+                          <p><span>Duration:&nbsp;</span>Aug-1-2020 to Aug-15-2020</p>
+                          <p><span>Team Size:&nbsp;</span> 2</p>
+                          <p><span>Role Played::&nbsp;</span>Full Stack</p>
+                          <a href="https://todo-app-mern-fi.herokuapp.com/" target="_blank" className="btn modal-btn waves-effect waves-light btn-primary custom-btn">Live Demo</a>
                           {/* Some Information Abut the Project */}
-                          <p className="text-left">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum elit ultricies. Lorem ipsum
-                            dolor sit amet, consectetur adipiscing elit. Morbi venenatis et tortor ac tincidunt. In euismod iaculis lobortis. Vestibulum posuere molestie ipsum vel sollicitudin. Vestibulum venenatis pharetra mi, ut vestibulum
-                            elit ultricies. Lorem ipsum dolor sit amet.
-                          </p>
-                          <button data-dismiss="modal" className="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
+                     
+                          <p class="text-left"><strong>Highlights:</strong>
+                          
+                           
+                           </p> <br/>
+                           <p class="text-left">(Admin) User live monitoring, and tracking user activities, User Management (Grant or Deny Access).</p>
+                           <p class="text-left">(User) Todo's CRUD Operations, Search, Sort, Paginating, Todo success alerts etc.</p> <br/> <br/>
+                          <p class="text-left"><strong>Skills Used:</strong> React Js, Redux, Node Js, Socket-IO, MongoDB, Bootstrap 4 and Material UI.</p>
+                          <p class="text-left"><strong>Description:</strong> Todo List System is a Todo list managent for user and Admin, Admin can control users and Gets Real time  User Activity tracking information.</p>
+                          <p class="text-left"><strong>Test Credentials:   </strong> <br/> 1.admin/admin <br/>2.harsha/harsha</p>
+                        
+                           <button data-dismiss="modal" className="btn right modal-btn close-btn waves-effect waves-light btn-primary custom-btn">Close</button>
                         </div>
                       </div>
                     </div>
