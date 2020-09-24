@@ -18,13 +18,8 @@ export default class Header extends Component {
                   <li><a href="#experience">Experience</a></li>
                   <li><a href="#skills">Skills</a></li>
                   <li><a href="#education">Education</a></li>
-                  <li><a href="#services">Services</a></li>
                   <li><a href="#portfolios">Portfolios</a></li>
                   <li><a href="#achievement">Achievement</a></li>
-                  <li><a href="#publications">Publications</a></li>
-                  <li><a href="#blog">Blog</a></li>
-                  <li><a href="#clients">Clients</a></li>
-                  <li><a href="#pricing">Pricing</a></li>
                   <li><a href="#interest">Interest</a></li>
                   <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -71,7 +66,7 @@ export default class Header extends Component {
           <div id="intro" className="container">
             <h1 className="text-center text-capitalize abthfs" >K Sriharsha</h1>
             <Typer heading={"Im a "} dataText = {
-                ["Web Developer", "Logo Designer", "UI/UX Designer", "Gamer"]
+                ["Web Developer", "Logo Designer", "UI/UX Designer"]
             }/>
           </div>
         </div>
