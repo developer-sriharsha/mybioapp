@@ -733,7 +733,6 @@ can prescribe various medicines based on patient symptoms and tracking patient d
                   <div className="row">
                     <div className="col col-md-12 col-sm-12 col-xs-12">
                       {/* Some brief about your interest */}
-                      
                     </div>
                     {/* Interest Topic Icon and Name */}
                     <ul className="col-md-12 col-sm-12 col-xs-12 text-center list-inline">
@@ -743,15 +742,15 @@ can prescribe various medicines based on patient symptoms and tracking patient d
                       </li>
                       <li className="interest-topic">
                         <i className="ion-compose" />
-                        <span>Blogging</span>
+                        <span>Tweaking Android Apps</span>
                       </li>
                       <li className="interest-topic">
                         <i className="ion-headphone" />
-                        <span>Music</span>
+                        <span>Developing Custom OS For Android</span>
                       </li>
                       <li className="interest-topic">
                         <i className="ion-ios-football" />
-                        <span>Football</span>
+                        <span>Blogging</span>
                       </li>
                       <li className="interest-topic">
                         <i className="ion-plane" />
@@ -798,7 +797,7 @@ can prescribe various medicines based on patient symptoms and tracking patient d
                     </li>
                     <li>
                       <i className="ion-ios-location center-block" />
-                      <span>Miyapur, Hyderabad, India.</span>
+                      <span>Hyderabad, Telangana, India.</span>
                     </li>
                   </ul>
                 </div>
