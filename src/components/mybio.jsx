@@ -741,11 +741,11 @@ can prescribe various medicines based on patient symptoms and tracking patient d
                         <span>Documentary</span>
                       </li>
                       <li className="interest-topic">
-                        <i className="ion-compose" />
+                        <i class="fa fa-android" />
                         <span>Tweaking Android Apps</span>
                       </li>
                       <li className="interest-topic">
-                        <i className="ion-headphone" />
+                        <i class="fa fa-android" />
                         <span>Developing Custom OS For Android</span>
                       </li>
                       <li className="interest-topic">
